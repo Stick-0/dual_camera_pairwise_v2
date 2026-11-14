@@ -1,0 +1,7 @@
+{
+  "recorded_2596_measurement_audit_passed": true,
+  "individual_ADD_and_PCK_independently_recomputed": true,
+  "max_absolute_numeric_error": 0.0,
+  "recorded_full_numeric_audit_sha256": "602240db6d8e8cf67322c3cff93c6ef975bd28e31fa48d48c91376333b300213",
+  "packaged_result_files_equal_recorded_full_sequence_results": true
+}

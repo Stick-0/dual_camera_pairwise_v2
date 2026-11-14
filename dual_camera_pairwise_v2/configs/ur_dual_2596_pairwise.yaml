@@ -1,0 +1,110 @@
+schema_version: 2
+experiment: ur_dual_2596_pairwise_all
+seed: 0
+source:
+  repository: parent_or_ROBOTPOSE_REPO_ROOT
+  dataset: Data/real/Dual_UR/UR_dual_2596
+  checkpoint: trained_models/ur5e_new2/last.pt
+  checkpoint_sha256: 7b5e518c15a54a7e5146d8b658a2d71f3e185866b8be69f9e8409df2ccc10d8c
+  fresh_observations: ingest/full/observations.json
+estimation:
+  pose_mode: per_pair
+  geometry_mode: current_pair
+  temporal_prior: false
+  use_static_base_pose: false
+  aggregate_robot_frames: false
+  reuse_previous_robot_pose: false
+  reuse_previous_relative_pose: false
+  use_legacy_B_initialization: false
+  use_reference_for_inference: false
+observations:
+  stage: raw_voting
+  use_camera_specific_q: true
+  preserve_raw_arrays: true
+  robot_candidate_epipolar_gate: disabled
+  covariance_floor_std_px: 1.0
+matching:
+  backend: roma_v2
+  pretrained_only: true
+  training_enabled: false
+  mask_mode: current_frame_endpoints
+  use_sequence_union_mask: false
+  use_temporal_background_composite: false
+  output_coordinates: native_pixels
+  sample_before_filter: 4096
+  max_spatially_selected_matches: 300
+  background_noise_std_px: 1.5
+  use_match_score_as_inverse_variance: false
+  mask_dilation_px: 50
+  roma_setting: fast
+  roma_bidirectional: true
+  min_score: 0.2
+  cycle_threshold_px: 3.0
+  grid_cell_px: 16
+  min_spacing_px: 8.0
+  device: cuda
+  mask_shape_policy: original
+  seed: 0
+geometry:
+  initialization_routes:
+  - rgb_essential
+  - current_pair_monocular
+  refine_relative_rotation_and_translation: true
+  add_E_as_independent_prior: false
+  add_monocular_pose_as_independent_prior: false
+  require_actual_cross_view_observations: true
+candidates:
+  source: original_voting_debug
+  preserve_original_scores: true
+  likelihood: gaussian_mixture_with_outlier
+  kernel_policy: explicit_isotropic_if_component_covariance_missing
+  kernel_std_px: 2.0
+  outlier_probability: 0.05
+  score_policy: normalized_nonnegative_vote_support
+  max_em_iterations: 10
+  generate_synthetic_candidates_from_pose: false
+solver:
+  covariance_floor_px: 1.0
+  huber_delta: 3.0
+  max_nfev: 60
+  irls_iterations: 3
+  min_rgb_matches: 8
+  max_rgb_matches: 80
+  rgb_noise_std_px: 1.5
+  lambda_rgb: 1.0
+  min_parallax_deg: 0.15
+  min_rgb_hull_fraction: 0.005
+  max_rgb_median_error_px: 3.0
+  min_baseline_m: 0.002
+  max_baseline_m: 10.0
+  max_reduced_condition: 1000000000000.0
+  min_effective_robot_per_camera: 2
+  max_pose_starts: 3
+  max_joint_starts: 3
+  max_rgb_p90_error_px: 8.0
+  min_effective_robot_total: 7.0
+  min_effective_rgb_weight: 0.2
+  min_positive_depth_fraction: 0.95
+  max_robot_median_error_px: 30.0
+  pnp_ransac_threshold_px: 12.0
+  essential_ransac_threshold_px: 2.0
+  depth_min_m: 0.001
+  depth_penalty_scale: 1000.0
+  pose_translation_scale_m: 0.5
+  final_rank_relative_tolerance: 1.0e-10
+  initialization_ambiguity_cost_tolerance: 1.0
+  initialization_ambiguity_rotation_deg: 20.0
+  initialization_ambiguity_translation_m: 0.25
+methods:
+- mono_mean
+- mono_candidates
+- dual_mean
+- dual_candidates
+- dual_no_cross
+evaluation:
+  split_policy: all_only_user_requested
+  evaluate_cameras_separately: true
+  keep_failed_rows: true
+  fallback_in_stereo_metrics: false
+  reference_role: evaluation_only
+  successful_pose_only: true

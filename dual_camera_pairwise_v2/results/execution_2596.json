@@ -1,0 +1,39 @@
+{
+  "network": "robotpose.network3.RobotJointDetection",
+  "checkpoint_sha256": "7b5e518c15a54a7e5146d8b658a2d71f3e185866b8be69f9e8409df2ccc10d8c",
+  "voting": {
+    "seg_thr": 0.5,
+    "theta": 0.99,
+    "max_pixels": 4000,
+    "num_hypotheses": 8,
+    "weight_by_segprob": true,
+    "min_valid_pixels": 50,
+    "use_angle_binning": true,
+    "angle_bin_deg": 3,
+    "min_hypotheses": 8,
+    "min_effective_hyps": 4,
+    "use_neighbor_fallback": true,
+    "neighbor_max_hops": null,
+    "on_fail": "none",
+    "enforce_in_image": true,
+    "use_neighbor_pixel_trigger": true,
+    "neighbor_min_pixels": 30
+  },
+  "strict_checkpoint_loading": true,
+  "device": "cuda",
+  "dtype": "float32",
+  "amp": false,
+  "torch_version": "2.11.0+cu128",
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "cuda_version": "12.8",
+  "dataset": "UR_dual_2596",
+  "stage_wall_seconds": {
+    "ingest_full": 617.4385905265808,
+    "match_roma_v2": 307.70245456695557,
+    "refine_roma_v2": 390.56399726867676,
+    "evaluate_roma_v2": 15.072503328323364,
+    "export_roma_v2": 14.420343399047852
+  },
+  "solver_workers": 12,
+  "timing_note": "Measured batch wall time with concurrent work; not an isolated online FPS benchmark."
+}

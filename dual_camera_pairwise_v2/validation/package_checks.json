@@ -1,0 +1,182 @@
+{
+  "unchanged_numeric_files": {
+    "pairwise/__init__.py": {
+      "sha256": "3238e4b2c7d9ec25893dc7af3d579295cf0b215e56a7933b96220330c4971a64",
+      "matches_original": true
+    },
+    "pairwise/geometry.py": {
+      "sha256": "90f63f7d9dc1c0fea47cc6f4535311adc9c870351f99cfa0260687f468c4e59c",
+      "matches_original": true
+    },
+    "pairwise/candidates.py": {
+      "sha256": "a3ff1f536a472ee961df7add7cd88ddb31b8d1744a56dfda49927651ce0f8d98",
+      "matches_original": true
+    },
+    "pairwise/solver.py": {
+      "sha256": "af0216e3937aba27762d187a84bd69b9225a93ebffd51f6f0640ec72ff571868",
+      "matches_original": true
+    },
+    "pairwise/matching.py": {
+      "sha256": "be9ae54e3d4bb5cc0ba945d222f96bec544e3dd0e4894f24434bcef2a2eabff7",
+      "matches_original": true
+    },
+    "pairwise/evaluation.py": {
+      "sha256": "a465a7f33318648d56eb08b624bfa7391994c1b0f54014d31969caf619483d71",
+      "matches_original": true
+    },
+    "export_infer_csv.py": {
+      "sha256": "823b549da1691be6976eca85b31acf4a0e7750c3bc3788f7f8f595ea937612e3",
+      "matches_original": true
+    },
+    "configs/evaluation_success_pose_only.json": {
+      "sha256": "0e131598fb335dc74a2213cacae34dd5ae77def908bba014297cd61505983a94",
+      "matches_original": true
+    }
+  },
+  "unchanged_functions": {
+    "run.py": {
+      "_read_matching": true,
+      "_match_for_pair": true,
+      "_solve_job": true,
+      "refine": true
+    },
+    "pairwise/bridge.py": {
+      "load_config": true,
+      "_arrays": true,
+      "_validate_current": true,
+      "read_pairs": true,
+      "separate_candidates": true,
+      "ObservationStore": true
+    },
+    "evaluate_success_pose_only.py": {
+      "read_csv": true,
+      "save_csv": true,
+      "eligible": true,
+      "aggregate_successful": true,
+      "paired_common": true,
+      "load_rows": true,
+      "plots": true
+    },
+    "ingest/ingest.py": {
+      "configure_runtime": true,
+      "read_json": true,
+      "immutable_json": true,
+      "load_source": true,
+      "checked_dataset_path": true,
+      "camera_settings": true,
+      "recorder_frame": true,
+      "prepare_dataset": true,
+      "FrozenRawProducer": true,
+      "produce": true
+    },
+    "evaluate_all_success.py": {
+      "summarize_all": true
+    }
+  },
+  "numeric_config_sections": {
+    "seed": true,
+    "estimation": true,
+    "observations": true,
+    "matching": true,
+    "geometry": true,
+    "candidates": true,
+    "solver": true,
+    "methods": true,
+    "evaluation": true
+  },
+  "config_non_numeric_changes": [
+    "portable source paths",
+    "remove inactive comparison_backend descriptor; RoMa remains identical"
+  ],
+  "roma_setup_only": true,
+  "syntax": {
+    "evaluate_success_pose_only.py": true,
+    "export_infer_csv.py": true,
+    "evaluate_all_success.py": true,
+    "matcher_worker.py": true,
+    "run.py": true,
+    "setup_matchers.py": true,
+    "pairwise/bridge.py": true,
+    "pairwise/solver.py": true,
+    "pairwise/matching.py": true,
+    "pairwise/candidates.py": true,
+    "pairwise/runtime.py": true,
+    "pairwise/geometry.py": true,
+    "pairwise/evaluation.py": true,
+    "pairwise/__init__.py": true,
+    "ingest/ingest.py": true,
+    "tests/test_bridge.py": true,
+    "tests/test_export_infer_csv.py": true,
+    "tests/test_runtime_guard.py": true,
+    "tests/test_success_pose_only.py": true,
+    "tests/test_candidates_likelihood.py": true,
+    "tests/test_full_population.py": true,
+    "tests/test_candidate_cache.py": true,
+    "tests/test_evaluation.py": true,
+    "tests/test_matching.py": true,
+    "tests/test_geometry_pairwise.py": true
+  },
+  "cli_help": {
+    "run.py": {
+      "exit_code": 0,
+      "help_has_usage": true
+    },
+    "matcher_worker.py": {
+      "exit_code": 0,
+      "help_has_usage": true
+    },
+    "ingest/ingest.py": {
+      "exit_code": 0,
+      "help_has_usage": true
+    },
+    "evaluate_all_success.py": {
+      "exit_code": 0,
+      "help_has_usage": true
+    },
+    "export_infer_csv.py": {
+      "exit_code": 0,
+      "help_has_usage": true
+    }
+  },
+  "missing_original_source": {
+    "exit_code": 1,
+    "explicit_error": true,
+    "output_not_created": true
+  },
+  "smoke_schema": {
+    "pairs": 2,
+    "images": 4,
+    "prepare_only": true,
+    "checkpoint_sha256_checked": true,
+    "no_gpu_inference": true
+  },
+  "real_2596_roma_regression": {
+    "summary_metrics.csv": {
+      "rows": 15,
+      "all_fields_exactly_equal": true
+    },
+    "paired_comparisons.csv": {
+      "rows": 12,
+      "all_fields_exactly_equal": true
+    },
+    "curves.json": {
+      "all_values_exactly_equal": true
+    }
+  },
+  "passed": true,
+  "roma_dependency_preparation": {
+    "no_loftr_source_download": true,
+    "no_loftr_weights_download": true,
+    "no_yacs_install": true,
+    "network_setup_reexecuted": false,
+    "reason": "Pinned RoMa setup source reviewed; model dependencies and GPU experiment not rerun for packaging."
+  },
+  "packaged_cpu_tests": {
+    "passed": true,
+    "tests": 40,
+    "failures": 0,
+    "errors": 0,
+    "unique_test_methods": 36,
+    "executions_note": "The 4 policy methods are also imported by the population test module; 40 executions / 36 distinct test methods."
+  }
+}

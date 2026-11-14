@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "document": {
+    "path": "docs/CURRENT_IMPLEMENTATION_REPORT.html",
+    "sha256": "834786422500a9a678d7ceb7f67285598084d146992cb82d182f7ded0ed1bf73",
+    "bytes": 286473,
+    "sections": 39,
+    "summary_rows": 30,
+    "summary_fields_compared": 330,
+    "paired_table_rows_compared": 24,
+    "complete_dataset_curves_compared": 2,
+    "offline_browser_checks": {
+      "source_sha256": "834786422500a9a678d7ceb7f67285598084d146992cb82d182f7ded0ed1bf73",
+      "structure": {
+        "sections": 39,
+        "duplicate_ids": [],
+        "unresolved_anchors": [],
+        "desktop_overflow": false,
+        "title": "Dual Camera Pairwise V2 · 현재 구현·방법론·전체 실험 보고서"
+      },
+      "interactions": [
+        {
+          "dataset": "UR_dual_889",
+          "camera": "camera1",
+          "rows": 5,
+          "charts": 4,
+          "curves": [
+            5,
+            2,
+            5,
+            5
+          ],
+          "caption": "UR_dual_889 · roma_v2 · camera1",
+          "no_invalid_svg_values": true
+        },
+        {
+          "dataset": "UR_dual_889",
+          "camera": "camera2",
+          "rows": 5,
+          "charts": 4,
+          "curves": [
+            5,
+            2,
+            5,
+            5
+          ],
+          "caption": "UR_dual_889 · roma_v2 · camera2",
+          "no_invalid_svg_values": true
+        },
+        {
+          "dataset": "UR_dual_889",
+          "camera": "pooled",
+          "rows": 5,
+          "charts": 4,
+          "curves": [
+            5,
+            2,
+            5,
+            5
+          ],
+          "caption": "UR_dual_889 · roma_v2 · pooled",
+          "no_invalid_svg_values": true
+        },
+        {
+          "dataset": "UR_dual_2596",
+          "camera": "camera1",
+          "rows": 5,
+          "charts": 4,
+          "curves": [
+            5,
+            2,
+            5,
+            5
+          ],
+          "caption": "UR_dual_2596 · roma_v2 · camera1",
+          "no_invalid_svg_values": true
+        },
+        {
+          "dataset": "UR_dual_2596",
+          "camera": "camera2",
+          "rows": 5,
+          "charts": 4,
+          "curves": [
+            5,
+            2,
+            5,
+            5
+          ],
+          "caption": "UR_dual_2596 · roma_v2 · camera2",
+          "no_invalid_svg_values": true
+        },
+        {
+          "dataset": "UR_dual_2596",
+          "camera": "pooled",
+          "rows": 5,
+          "charts": 4,
+          "curves": [
+            5,
+            2,
+            5,
+            5
+          ],
+          "caption": "UR_dual_2596 · roma_v2 · pooled",
+          "no_invalid_svg_values": true
+        }
+      ],
+      "mobile": {
+        "width": 390,
+        "document_width": 390,
+        "tables_scrollable": true
+      },
+      "print": {
+        "navigation_hidden": true,
+        "document_width": 719
+      },
+      "errors": [],
+      "external_requests": [],
+      "passed": true
+    }
+  },
+  "original_files_preserved": {
+    "passed": true,
+    "files_checked": 18027,
+    "changes": [],
+    "missing": [],
+    "scope": "Existing extension source/configuration/reports/recorded result text files, original robot source, selected robot checkpoint; generated caches/vendor/environments and release excluded."
+  }
+}

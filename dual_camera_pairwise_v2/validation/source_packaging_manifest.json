@@ -1,0 +1,182 @@
+{
+  "source_root": "dual_camera_pairwise_v2",
+  "entries": [
+    {
+      "path": "pairwise/__init__.py",
+      "source": "pairwise/__init__.py",
+      "sha256": "3238e4b2c7d9ec25893dc7af3d579295cf0b215e56a7933b96220330c4971a64",
+      "source_sha256": "3238e4b2c7d9ec25893dc7af3d579295cf0b215e56a7933b96220330c4971a64"
+    },
+    {
+      "path": "pairwise/geometry.py",
+      "source": "pairwise/geometry.py",
+      "sha256": "90f63f7d9dc1c0fea47cc6f4535311adc9c870351f99cfa0260687f468c4e59c",
+      "source_sha256": "90f63f7d9dc1c0fea47cc6f4535311adc9c870351f99cfa0260687f468c4e59c"
+    },
+    {
+      "path": "pairwise/candidates.py",
+      "source": "pairwise/candidates.py",
+      "sha256": "a3ff1f536a472ee961df7add7cd88ddb31b8d1744a56dfda49927651ce0f8d98",
+      "source_sha256": "a3ff1f536a472ee961df7add7cd88ddb31b8d1744a56dfda49927651ce0f8d98"
+    },
+    {
+      "path": "pairwise/solver.py",
+      "source": "pairwise/solver.py",
+      "sha256": "af0216e3937aba27762d187a84bd69b9225a93ebffd51f6f0640ec72ff571868",
+      "source_sha256": "af0216e3937aba27762d187a84bd69b9225a93ebffd51f6f0640ec72ff571868"
+    },
+    {
+      "path": "pairwise/matching.py",
+      "source": "pairwise/matching.py",
+      "sha256": "be9ae54e3d4bb5cc0ba945d222f96bec544e3dd0e4894f24434bcef2a2eabff7",
+      "source_sha256": "be9ae54e3d4bb5cc0ba945d222f96bec544e3dd0e4894f24434bcef2a2eabff7"
+    },
+    {
+      "path": "pairwise/evaluation.py",
+      "source": "pairwise/evaluation.py",
+      "sha256": "a465a7f33318648d56eb08b624bfa7391994c1b0f54014d31969caf619483d71",
+      "source_sha256": "a465a7f33318648d56eb08b624bfa7391994c1b0f54014d31969caf619483d71"
+    },
+    {
+      "path": "export_infer_csv.py",
+      "source": "export_infer_csv.py",
+      "sha256": "823b549da1691be6976eca85b31acf4a0e7750c3bc3788f7f8f595ea937612e3",
+      "source_sha256": "823b549da1691be6976eca85b31acf4a0e7750c3bc3788f7f8f595ea937612e3"
+    },
+    {
+      "path": "setup_matchers.py",
+      "source": "setup_matchers.py",
+      "sha256": "60c1751b1a26727fae013ef0e60144876592871dcba8283205ed92a9cb25d011",
+      "source_sha256": "b97bbe504e831233cc0f67a1173ee940a7dd0fcf766533a101b847602514e22a"
+    },
+    {
+      "path": "configs/evaluation_success_pose_only.json",
+      "source": "configs/evaluation_success_pose_only.json",
+      "sha256": "0e131598fb335dc74a2213cacae34dd5ae77def908bba014297cd61505983a94",
+      "source_sha256": "0e131598fb335dc74a2213cacae34dd5ae77def908bba014297cd61505983a94"
+    },
+    {
+      "path": "tests/test_bridge.py",
+      "source": "tests/test_bridge.py",
+      "sha256": "c338118b2ed41eacd3f54aee15750497961343c525e7c3b66f975dfbc6cb10ea",
+      "source_sha256": "5ecec0e58f84ed78682748fec6ae81248c443356eb3893610d48cbf17b75a910"
+    },
+    {
+      "path": "tests/test_candidate_cache.py",
+      "source": "tests/test_candidate_cache.py",
+      "sha256": "a5dbbf255fd281366deac353c5f75027a78e1357cd2991b562a80f90b233c980",
+      "source_sha256": "a5dbbf255fd281366deac353c5f75027a78e1357cd2991b562a80f90b233c980"
+    },
+    {
+      "path": "tests/test_candidates_likelihood.py",
+      "source": "tests/test_candidates_likelihood.py",
+      "sha256": "f8103f194295f9776cfbe48bf72268f93bde7fa02ed659b55990b2e024a945cf",
+      "source_sha256": "f8103f194295f9776cfbe48bf72268f93bde7fa02ed659b55990b2e024a945cf"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "source": "tests/test_evaluation.py",
+      "sha256": "100d513b86bf67fdaebefd08e7f729ae6eba5439dd2f076fcd05f913fc5e1423",
+      "source_sha256": "100d513b86bf67fdaebefd08e7f729ae6eba5439dd2f076fcd05f913fc5e1423"
+    },
+    {
+      "path": "tests/test_export_infer_csv.py",
+      "source": "tests/test_export_infer_csv.py",
+      "sha256": "77ddd3c382e21a9a5bd31f363ebdfddfba02ad1a50f1cdf000f1e2ed742e6bab",
+      "source_sha256": "77ddd3c382e21a9a5bd31f363ebdfddfba02ad1a50f1cdf000f1e2ed742e6bab"
+    },
+    {
+      "path": "tests/test_geometry_pairwise.py",
+      "source": "tests/test_geometry_pairwise.py",
+      "sha256": "04f27b9bc779b7c04d8ed55e1c42fb42625d38485fe53b7e3c85edaab59f6893",
+      "source_sha256": "195653da09ed1ec0f5ee041efa4747a48dc96641161dca7a048e782f343f49cd"
+    },
+    {
+      "path": "tests/test_matching.py",
+      "source": "tests/test_matching.py",
+      "sha256": "1d8fc378e42343b94176c1404d0cc194ebfa9b71f8ff80dcda75a253874652b6",
+      "source_sha256": "1d8fc378e42343b94176c1404d0cc194ebfa9b71f8ff80dcda75a253874652b6"
+    },
+    {
+      "path": "tests/test_runtime_guard.py",
+      "source": "tests/test_runtime_guard.py",
+      "sha256": "6e44dad441aebd3c3152d64a8b3f774cdc0e81bb86f98f1cee7687bd3ab0680e",
+      "source_sha256": "6e44dad441aebd3c3152d64a8b3f774cdc0e81bb86f98f1cee7687bd3ab0680e"
+    },
+    {
+      "path": "tests/test_success_pose_only.py",
+      "source": "tests/test_success_pose_only.py",
+      "sha256": "c03f3f86ed3d54824dd7c4b7b1de595aec961c5af89617d280df7d0aeacc097f",
+      "source_sha256": "c03f3f86ed3d54824dd7c4b7b1de595aec961c5af89617d280df7d0aeacc097f"
+    },
+    {
+      "path": "pairwise/runtime.py",
+      "source": "pairwise/runtime.py",
+      "sha256": "9b8e2764860a19f1011fe1e6fbb08ec82a3d3411768336d1285f233fe7950fe5",
+      "source_sha256": "1c46db0293f924b46bfda58b34c63142a8f0104f5394644c6b9a528b84d1fd05"
+    },
+    {
+      "path": "pairwise/bridge.py",
+      "source": "pairwise/bridge.py",
+      "sha256": "6ca6a67d0849f0e37d53c8e048c184b4fb0c90e3b8ec72a23f1239a3ed09d253",
+      "source_sha256": "b08bab54bddcdf7f6de4e336b97c96dfb62628a7c7fffa668455d230a79b4a3b"
+    },
+    {
+      "path": "run.py",
+      "source": "run.py",
+      "sha256": "345bc213d345dc517209e0ead82a240a09c1a24b7e3ef7565012450838e7946d",
+      "source_sha256": "b6e74eca2346285a4c9da7e1ca4cc82a2bad0234ee9c8cd7153384a796fa6f6f"
+    },
+    {
+      "path": "matcher_worker.py",
+      "source": "matcher_worker.py",
+      "sha256": "bc6d97e8d4952b15ae8172d70be07330c76753ccc779c2be35b6de658209bb3e",
+      "source_sha256": "1cb48af796d45dd50f7abe669f994b253fe99ad4446643f1a6d8e54f5710c10d"
+    },
+    {
+      "path": "ingest/ingest.py",
+      "source": "experiments/ur_dual_2596_20261114/ingest/ingest.py",
+      "sha256": "1e72e807be73af1562e38f55c6953bff323c20e09d4ff9e9d52190f3d64af27d",
+      "source_sha256": "cdec39a4fc06b052bd2eb96a33d726ccdcb4a352d1c160f40b93595fd7c64985"
+    },
+    {
+      "path": "evaluate_success_pose_only.py",
+      "source": "evaluate_success_pose_only.py",
+      "sha256": "d1238760990580797369ee260ad42f199677a6f17dfe950c3dc431687b52437f",
+      "source_sha256": "eb1d6ba20abe7b7e80abea9c94ad3080f7f33dec6aa9b0885f95263816368812"
+    },
+    {
+      "path": "evaluate_all_success.py",
+      "source": "experiments/ur_dual_2596_20261114/reporting/evaluate_all_success.py",
+      "sha256": "a6c8636badc5072c6fc35997210f96ae781f706b212a69833a7e6b978c9afe0a",
+      "source_sha256": "72638ed4a08b5416ceee42cff20d386e291ccdfc9199119879589879871987a3"
+    },
+    {
+      "path": "tests/test_full_population.py",
+      "source": "experiments/ur_dual_2596_20261114/reporting/test_full_population.py",
+      "sha256": "73af1fa4a4f126fbf7fcd6f81524afc41d8e55cfc3241bf8ed1c54b70430c7fc",
+      "source_sha256": "73af1fa4a4f126fbf7fcd6f81524afc41d8e55cfc3241bf8ed1c54b70430c7fc"
+    },
+    {
+      "path": "configs/ur_dual_2596_pairwise.yaml",
+      "source": "experiments/ur_dual_2596_20261114/configs/ur_dual_2596_pairwise.yaml",
+      "sha256": "1c215f7cf87b2945d7db1de1e2e72e387fe245b38ff2c855e0eed9667896279a",
+      "source_sha256": "74f1aacba6dbeff7c9e1f2803438148bac3585444d0651eff8017cd88d3c4b7d"
+    },
+    {
+      "path": ".gitignore",
+      "source": null,
+      "sha256": "702517ceda734038ddd642f1be1f0c91debdfa1e4c4b06fa5b83a26bef47c472",
+      "source_sha256": null
+    }
+  ],
+  "numerical_changes": false,
+  "adaptations": [
+    "relative extension location",
+    "explicit ROBOTPOSE_REPO_ROOT support and missing-source errors",
+    "whole-dataset-only CLI",
+    "current full evaluation CLI",
+    "omit unused legacy cache import and historical report builders",
+    "RoMa-only default setup; inactive comparison descriptor removed"
+  ]
+}

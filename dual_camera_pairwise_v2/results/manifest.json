@@ -1,0 +1,65 @@
+{
+  "backend": "roma_v2",
+  "datasets": {
+    "UR_dual_889": {
+      "pairs": 889,
+      "images": 1778,
+      "summary_groups": 15,
+      "methods": [
+        "dual_candidates",
+        "dual_mean",
+        "dual_no_cross",
+        "mono_candidates",
+        "mono_mean"
+      ]
+    },
+    "UR_dual_2596": {
+      "pairs": 2596,
+      "images": 5192,
+      "summary_groups": 15,
+      "methods": [
+        "dual_candidates",
+        "dual_mean",
+        "dual_no_cross",
+        "mono_candidates",
+        "mono_mean"
+      ]
+    }
+  },
+  "artifacts": {
+    "UR_dual_889/roma_v2/summary_metrics.csv": {
+      "sha256": "1c3d653a792ef7d152db62f4effc2b9415b77a863f96f28cc5d92ad19756a2b4",
+      "bytes": 17371,
+      "recorded_result_bytes_preserved": true
+    },
+    "UR_dual_889/roma_v2/paired_comparisons.csv": {
+      "sha256": "4fb337f6f0a7f14a208c5b4fc6e30a6566f28b9bce27e0e65598ca214ab5c13d",
+      "bytes": 4903,
+      "recorded_result_bytes_preserved": true
+    },
+    "UR_dual_889/roma_v2/curves.json": {
+      "sha256": "2aa6f15c26be0ae90a924e0f93ee693a537541ab96d9f3ac941bdcab75bd792f",
+      "bytes": 152469,
+      "recorded_result_bytes_preserved": true
+    },
+    "UR_dual_2596/roma_v2/summary_metrics.csv": {
+      "sha256": "b2e36688df75f9a8a421c49c1f775374daca648b1917e970121abc0646a1d9b1",
+      "bytes": 17615,
+      "recorded_result_bytes_preserved": true
+    },
+    "UR_dual_2596/roma_v2/paired_comparisons.csv": {
+      "sha256": "f17f3f0cd389be4642dd698dbbe7ae4948094f2b974eb4e3c335113ef31265ad",
+      "bytes": 5248,
+      "recorded_result_bytes_preserved": true
+    },
+    "UR_dual_2596/roma_v2/curves.json": {
+      "sha256": "93c567f73ebb53598cb06d8d0667fb45ae9d296c4b7b9f592768da69d4e07643",
+      "bytes": 152890,
+      "recorded_result_bytes_preserved": true
+    }
+  },
+  "checkpoint_sha256": "7b5e518c15a54a7e5146d8b658a2d71f3e185866b8be69f9e8409df2ccc10d8c",
+  "reference_role": "annotation-reference agreement",
+  "ADD_definition": "Mean distance over seven FK keypoints, in millimetres.",
+  "no_dataset_images_or_weights_included": true
+}

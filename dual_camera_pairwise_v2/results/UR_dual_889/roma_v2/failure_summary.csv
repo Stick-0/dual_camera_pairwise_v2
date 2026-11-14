@@ -1,0 +1,3 @@
+dataset,method,reason,pairs
+UR_dual_889,dual_candidates,insufficient_final_robot_information,1
+UR_dual_889,dual_mean,insufficient_final_robot_information,3

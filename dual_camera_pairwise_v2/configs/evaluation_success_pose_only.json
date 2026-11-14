@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "evaluation_population": "successful_pose_only",
+  "dual_eligibility": "pose_success == 1 and stereo_refined == 1 and status == stereo_refined",
+  "monocular_eligibility": "pose_success == 1",
+  "fallback_allowed": false,
+  "add_threshold_comparison": "strict_less_than",
+  "add_auc_range_mm": [0, 100, 5],
+  "pck_auc_range_px": [0, 20, 0.25],
+  "pck_reference_policy": "finite_in_image_reference_points_on_eligible_poses",
+  "missing_prediction_on_successful_pose": "count_as_keypoint_failure",
+  "paired_comparison_population": "common_successful_pair_id_and_camera",
+  "report_attempt_and_success_counts": true,
+  "reference_role": "annotation-reference agreement"
+}
