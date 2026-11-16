@@ -1,0 +1,149 @@
+{
+  "label": "after_full",
+  "checked_unix": 1794795963.722926,
+  "before_files_hashed": 443394,
+  "metadata_missing": [],
+  "metadata_added_outside_new": [],
+  "metadata_changed": [],
+  "hash_changes": [],
+  "sandbox_managed_mount_surface_changes": [
+    {
+      "path": ".codex",
+      "changed_fields": [
+        "ctime_ns",
+        "device",
+        "mtime_ns"
+      ],
+      "before": {
+        "path": ".codex",
+        "kind": "file",
+        "size": 0,
+        "mode": 33152,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795089882280448,
+        "ctime_ns": 1794795089882280448,
+        "inode": 4,
+        "device": 53
+      },
+      "after": {
+        "path": ".codex",
+        "kind": "file",
+        "size": 0,
+        "mode": 33152,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795739532466928,
+        "ctime_ns": 1794795739532466928,
+        "inode": 4,
+        "device": 82
+      }
+    },
+    {
+      "path": ".git",
+      "changed_fields": [
+        "ctime_ns",
+        "device",
+        "mtime_ns"
+      ],
+      "before": {
+        "path": ".git",
+        "kind": "directory",
+        "size": 40,
+        "mode": 16749,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795089882280448,
+        "ctime_ns": 1794795089882280448,
+        "inode": 1,
+        "device": 77
+      },
+      "after": {
+        "path": ".git",
+        "kind": "directory",
+        "size": 40,
+        "mode": 16749,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795739532466928,
+        "ctime_ns": 1794795739532466928,
+        "inode": 1,
+        "device": 91
+      }
+    },
+    {
+      "path": ".aws",
+      "changed_fields": [
+        "ctime_ns",
+        "device",
+        "mtime_ns"
+      ],
+      "before": {
+        "path": ".aws",
+        "kind": "directory",
+        "size": 40,
+        "mode": 16749,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795089882280448,
+        "ctime_ns": 1794795089882280448,
+        "inode": 1,
+        "device": 79
+      },
+      "after": {
+        "path": ".aws",
+        "kind": "directory",
+        "size": 40,
+        "mode": 16749,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795739532466928,
+        "ctime_ns": 1794795739532466928,
+        "inode": 1,
+        "device": 93
+      }
+    },
+    {
+      "path": ".agents",
+      "changed_fields": [
+        "ctime_ns",
+        "device",
+        "mtime_ns"
+      ],
+      "before": {
+        "path": ".agents",
+        "kind": "directory",
+        "size": 40,
+        "mode": 16749,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795089882280448,
+        "ctime_ns": 1794795089882280448,
+        "inode": 1,
+        "device": 78
+      },
+      "after": {
+        "path": ".agents",
+        "kind": "directory",
+        "size": 40,
+        "mode": 16749,
+        "uid": 1000,
+        "gid": 1000,
+        "mtime_ns": 1794795739532466928,
+        "ctime_ns": 1794795739532466928,
+        "inode": 1,
+        "device": 92
+      }
+    }
+  ],
+  "sandbox_surface_rule": "Only mtime_ns, ctime_ns and device on the four sandbox-managed roots are separately reported; their content hashes, size, permissions, ownership, symlink targets and every ordinary path remain checked.",
+  "passed": true,
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "ee75859f348fa883f331c71ae3be15cae20b98de0d466705e58d42a2a706be5d",
+    "original_relative_path": "preservation/after_full.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

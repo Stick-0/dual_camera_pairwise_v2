@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "dataset": "UR_dual_2596",
+  "pairs": 2596,
+  "counts": {
+    "raw_hypotheses": 290752,
+    "retained_hypotheses": 290708,
+    "images": 5192,
+    "raw_valid_keypoints": 36340,
+    "distinct_q1_q2_pairs": 2596,
+    "matches_pairs": 2596
+  },
+  "candidate_count_histogram": {
+    "8": 36344
+  },
+  "selected_match_count_histogram": {
+    "80": 2596
+  },
+  "filtered_match_count_min_max": [
+    119,
+    215
+  ],
+  "all_5192_RGB_and_NPZ_SHA256_verified": true,
+  "all_5192_original_candidates_exact": true,
+  "all_camera_specific_q_and_FK_verified": true,
+  "max_fk_absolute_error_m": 0.0,
+  "max_joint_interpolation_absolute_error_rad": 0.0,
+  "all_match_identity_mask_image_contracts_verified": true,
+  "all_deterministic_score_cycle_mask_grid_filters_recomputed_exact": true,
+  "all_fixed_subset80_coordinates_and_indices_match_production": true,
+  "evaluation_reference_poses_used": false,
+  "annotation_access_scope": "Validator only: original recorded joint_angles_rad and capture_metadata.camera.capture_monotonic_s; camera_data transforms and objects labels never feed estimation",
+  "weights": {
+    "robot_checkpoint": "${ROBOTPOSE_ROOT}/trained_models/ur5e_new2/last.pt",
+    "robot_checkpoint_sha256": "7b5e518c15a54a7e5146d8b658a2d71f3e185866b8be69f9e8409df2ccc10d8c",
+    "roma_checkpoint": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/weights/romav2.0.1.pt",
+    "roma_checkpoint_sha256": "1557dec0d21b62366465f7ff4d5fdf228cc695d0582e196ad2b80e05230828b7",
+    "roma_source_commit": "95c9968145c8906b7b59383258e9f73b02853d89",
+    "roma_source_worktree_clean": true,
+    "dinov3_source_commit": "adc254450203739c8149213a7a69d8d905b4fcfa",
+    "dinov3_source_archive_sha256": "0c6a0270fba974a87ee79c5b94a1f7953919458a025128a08c780e8186f83bad",
+    "dinov3_weight_storage": "f.* tensor subset embedded in complete romav2.0.1.pt; no separate DINO checkpoint is loaded by the default configuration",
+    "dinov3_tensor_count": 368,
+    "dinov3_parameter_elements": 303227920,
+    "dinov3_tensor_manifest_identity": "b8d3819df4e6562719c7dcf9ab8c6e3327476c3217943559e17a33db88de643f",
+    "tensor_hash_rule": "SHA256(torch dtype string + tuple shape string + contiguous raw bytes); aggregate canonical JSON identity",
+    "weights_loaded_only_on_CPU_for_hash_audit": true,
+    "models_instantiated": false,
+    "torch_version": "2.11.0+cu128",
+    "torch_cuda_available": false
+  },
+  "nvidia_smi_exit_code": 9,
+  "nvidia_smi_stdout": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.\n\n",
+  "nvidia_smi_stderr": "",
+  "execution_mode": "CPU numerical solver may reuse the fully verified immutable prior CUDA FP32 robot observations and CUDA RoMa matching cache; no new GPU inference/matching was executed",
+  "new_model_inference": false,
+  "new_matching": false,
+  "new_candidates": false,
+  "all_writes_confined_to_new_extension": true,
+  "original_runtime_configure_called": false,
+  "raw_timestamp_available": true,
+  "pair_timestamp_source": "Recorded camera capture_monotonic_s, averaged per pair",
+  "timestamp_span_s": 259.78320813179016,
+  "interpair_dt_min_median_max_s": [
+    0.10006511211395264,
+    0.10007071495056152,
+    0.20014262199401855
+  ],
+  "camera2_minus_camera1_min_median_max_s": [
+    0.009429216384887695,
+    0.012320995330810547,
+    0.015434980392456055
+  ],
+  "source_hash_count": 25995,
+  "audit_wall_s": 52.561509257997386,
+  "source_sha256_summary": {
+    "omitted_entries": 25995,
+    "original_mapping_canonical_sha256": "db2e8113e86a71a1b5dbf45802f69a112e8d2d803934e1d59ac6c32a31825b60",
+    "storage": "Full file-level hash mapping retained in the immutable local original; omitted from lightweight release."
+  },
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "8e2d11c473264c36df3f6075f5777cd735c6d9ea9b8c6e320e25732dea83d04f",
+    "original_relative_path": "validation/input_audit.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run",
+      "replace large file-level source hash mapping with count and canonical mapping SHA256"
+    ]
+  }
+}

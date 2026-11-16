@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "counts": {
+    "pre_eligible": 2596,
+    "R_init_available": 2596,
+    "R0_common_valid": 2596,
+    "R0_final_valid": 2596,
+    "R1_common_valid": 2596,
+    "R1_final_valid": 2596,
+    "E_init_available": 2596,
+    "E0_common_valid": 2495,
+    "E0_final_valid": 2495,
+    "E1_common_valid": 2463,
+    "E1_final_valid": 2463,
+    "audited_pairs": 2596
+  },
+  "failures": [],
+  "result_sha256": "24fd17e1d8adc2d36d1a123d1119cc05f61945a989f23d7d43be6d545ac01655",
+  "all_failed_poses_retained_as_rows": true,
+  "evaluation_reference_read": false,
+  "prespecified_eligibility_rederived_without_outcomes": true,
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "b58830147234a7d315581821e3cb5228e9046e68adf0e34523d6e31c71bc0f55",
+    "original_relative_path": "validation/full_output_contracts.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

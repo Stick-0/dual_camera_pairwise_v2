@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "report": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/reports/final/ablation_report.html",
+  "ids": 23,
+  "internal_links_checked": 40,
+  "broken_links": [],
+  "embedded_png_images": 11,
+  "interactive_selectors": [
+    "population",
+    "gate",
+    "camera"
+  ],
+  "scientific_plot_visual_inspection": [
+    "add_curves.png",
+    "example_R1-R0_improved_002433.png"
+  ],
+  "desktop_screenshot": "not generated: sandbox disallows Chrome crashpad setsockopt; see logs/report_render.log",
+  "javascript_browser_execution_verified": false,
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "27dadf5d0970c09fe28858ac7ce68a7c30bd88d3030e0b3a8fcd1c3a3a82ca90",
+    "original_relative_path": "validation/report_structure_qa.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

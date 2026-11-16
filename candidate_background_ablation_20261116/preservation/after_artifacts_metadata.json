@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checked_entries": 1694629,
+  "missing": [],
+  "added_outside_extension": [],
+  "changed_original_metadata": [],
+  "sandbox_mount_surfaces": [
+    {
+      "path": ".agents",
+      "fields": [
+        "ctime_ns",
+        "mtime_ns"
+      ]
+    },
+    {
+      "path": ".aws",
+      "fields": [
+        "ctime_ns",
+        "mtime_ns"
+      ]
+    },
+    {
+      "path": ".codex",
+      "fields": [
+        "ctime_ns",
+        "mtime_ns"
+      ]
+    },
+    {
+      "path": ".git",
+      "fields": [
+        "ctime_ns",
+        "mtime_ns"
+      ]
+    }
+  ],
+  "full_content_hash_verification": "after_full.json:443394 original files unchanged",
+  "checked_unix": 1794796340.17472,
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "699a2e2f7fc0eeab63e42b1ec119ae55ded12dc297e41602bfd3c4b7da3c98d5",
+    "original_relative_path": "preservation/after_artifacts_metadata.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

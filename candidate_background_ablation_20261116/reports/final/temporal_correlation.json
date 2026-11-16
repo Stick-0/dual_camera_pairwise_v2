@@ -1,0 +1,173 @@
+{
+  "method": "Original ordered pair lag; invalid values remain missing, never compressed.",
+  "records": [
+    {
+      "contrast": "R1-R0",
+      "requested_lag_s": 0.5,
+      "index_lag": 5,
+      "actual_median_lag_s": 0.5003529787063599,
+      "n_pair_pairs": 2591,
+      "correlation": 0.6814207442588948
+    },
+    {
+      "contrast": "R1-R0",
+      "requested_lag_s": 1.0,
+      "index_lag": 10,
+      "actual_median_lag_s": 1.0007051825523376,
+      "n_pair_pairs": 2586,
+      "correlation": 0.5928553707408438
+    },
+    {
+      "contrast": "R1-R0",
+      "requested_lag_s": 2.0,
+      "index_lag": 20,
+      "actual_median_lag_s": 2.0014089345932007,
+      "n_pair_pairs": 2576,
+      "correlation": 0.4877302759967223
+    },
+    {
+      "contrast": "R1-R0",
+      "requested_lag_s": 5.0,
+      "index_lag": 50,
+      "actual_median_lag_s": 5.003528833389282,
+      "n_pair_pairs": 2546,
+      "correlation": 0.3735783029630147
+    },
+    {
+      "contrast": "R1-R0",
+      "requested_lag_s": 10.0,
+      "index_lag": 100,
+      "actual_median_lag_s": 10.007054150104523,
+      "n_pair_pairs": 2496,
+      "correlation": 0.1297449303903807
+    },
+    {
+      "contrast": "E1-E0",
+      "requested_lag_s": 0.5,
+      "index_lag": 5,
+      "actual_median_lag_s": 0.5003530979156494,
+      "n_pair_pairs": 2351,
+      "correlation": 0.3291931863675992
+    },
+    {
+      "contrast": "E1-E0",
+      "requested_lag_s": 1.0,
+      "index_lag": 10,
+      "actual_median_lag_s": 1.0007051229476929,
+      "n_pair_pairs": 2335,
+      "correlation": 0.2540696927481884
+    },
+    {
+      "contrast": "E1-E0",
+      "requested_lag_s": 2.0,
+      "index_lag": 20,
+      "actual_median_lag_s": 2.0014089345932007,
+      "n_pair_pairs": 2317,
+      "correlation": 0.22480549467192715
+    },
+    {
+      "contrast": "E1-E0",
+      "requested_lag_s": 5.0,
+      "index_lag": 50,
+      "actual_median_lag_s": 5.003529667854309,
+      "n_pair_pairs": 2300,
+      "correlation": 0.15300770644625883
+    },
+    {
+      "contrast": "E1-E0",
+      "requested_lag_s": 10.0,
+      "index_lag": 100,
+      "actual_median_lag_s": 10.007055342197418,
+      "n_pair_pairs": 2260,
+      "correlation": 0.08278938715612259
+    },
+    {
+      "contrast": "E0-R0",
+      "requested_lag_s": 0.5,
+      "index_lag": 5,
+      "actual_median_lag_s": 0.5003530979156494,
+      "n_pair_pairs": 2404,
+      "correlation": 0.10243676827321342
+    },
+    {
+      "contrast": "E0-R0",
+      "requested_lag_s": 1.0,
+      "index_lag": 10,
+      "actual_median_lag_s": 1.0007050037384033,
+      "n_pair_pairs": 2391,
+      "correlation": 0.053548537874153736
+    },
+    {
+      "contrast": "E0-R0",
+      "requested_lag_s": 2.0,
+      "index_lag": 20,
+      "actual_median_lag_s": 2.0014089345932007,
+      "n_pair_pairs": 2383,
+      "correlation": 0.007026535769792331
+    },
+    {
+      "contrast": "E0-R0",
+      "requested_lag_s": 5.0,
+      "index_lag": 50,
+      "actual_median_lag_s": 5.003528833389282,
+      "n_pair_pairs": 2362,
+      "correlation": -0.0043876321569715675
+    },
+    {
+      "contrast": "E0-R0",
+      "requested_lag_s": 10.0,
+      "index_lag": 100,
+      "actual_median_lag_s": 10.007055521011353,
+      "n_pair_pairs": 2320,
+      "correlation": 0.04129079178658615
+    },
+    {
+      "contrast": "E1-R1",
+      "requested_lag_s": 0.5,
+      "index_lag": 5,
+      "actual_median_lag_s": 0.5003530979156494,
+      "n_pair_pairs": 2354,
+      "correlation": 0.11509965727518648
+    },
+    {
+      "contrast": "E1-R1",
+      "requested_lag_s": 1.0,
+      "index_lag": 10,
+      "actual_median_lag_s": 1.0007051229476929,
+      "n_pair_pairs": 2339,
+      "correlation": 0.08829579311928695
+    },
+    {
+      "contrast": "E1-R1",
+      "requested_lag_s": 2.0,
+      "index_lag": 20,
+      "actual_median_lag_s": 2.0014089345932007,
+      "n_pair_pairs": 2321,
+      "correlation": 0.15077204629671617
+    },
+    {
+      "contrast": "E1-R1",
+      "requested_lag_s": 5.0,
+      "index_lag": 50,
+      "actual_median_lag_s": 5.003529667854309,
+      "n_pair_pairs": 2304,
+      "correlation": 0.03280554530443539
+    },
+    {
+      "contrast": "E1-R1",
+      "requested_lag_s": 10.0,
+      "index_lag": 100,
+      "actual_median_lag_s": 10.007055222988129,
+      "n_pair_pairs": 2264,
+      "correlation": -0.013650168688076078
+    }
+  ],
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "d5d39d171f25f0ed4cf5a2716babcaf222f22b434d4080bb39c165cda086fcbd",
+    "original_relative_path": "reports/final/temporal_correlation.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "n_pairs": 2596,
+  "pose_camera_rows": 20768,
+  "summary_rows": 48,
+  "paired_rows": 60,
+  "direct_pose_and_PCK_checks": true,
+  "all_full_and_preeligible_gates_checked": true,
+  "bootstrap_CI_metrics_checked": 900,
+  "bootstrap_independent_pair_weights": true,
+  "checks": 504916,
+  "max_ADD_absolute_difference_mm": 1.8189894035458565e-12,
+  "max_PCK_absolute_difference_px": 0.0,
+  "evaluation_directory": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/reports/final",
+  "inference_rerun": false,
+  "source_sha256": "c47904bf4f7731e82f31ee507dd02d1f92b83b37fd16340eaeeca2cdddfd7029",
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "ec7104b1d55083bb53a2620162e3b9783b5c15f32a63c9860b66bb569d732c49",
+    "original_relative_path": "validation/independent_evaluation_audit_final.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

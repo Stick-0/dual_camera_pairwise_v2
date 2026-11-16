@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "package": "candidate_background_ablation_20261116",
+  "source_status": "completed full 2596-pair experiment",
+  "frozen_execution_python_byte_identical": true,
+  "csv_scientific_results_byte_identical": true,
+  "private_original_root_replaced_with": "${ROBOTPOSE_ROOT}",
+  "source_artifacts_modified": false,
+  "included_files": [
+    {
+      "path": "run.py",
+      "bytes": 8743,
+      "published_sha256": "fea17bb6dceb212b7aae2e9967ecb72e7792f64558a9e630542178c7aceef966",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/run.py",
+      "original_bytes": 8743,
+      "original_sha256": "fea17bb6dceb212b7aae2e9967ecb72e7792f64558a9e630542178c7aceef966",
+      "byte_identical": true
+    },
+    {
+      "path": "src/analyze_mechanisms.py",
+      "bytes": 22920,
+      "published_sha256": "acb894cd81ba4eb7bbce23d1dfe7bd335e0f8a58b7b8e8066980832b33e2c87e",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/analyze_mechanisms.py",
+      "original_bytes": 22920,
+      "original_sha256": "acb894cd81ba4eb7bbce23d1dfe7bd335e0f8a58b7b8e8066980832b33e2c87e",
+      "byte_identical": true
+    },
+    {
+      "path": "src/controlled_solver.py",
+      "bytes": 36360,
+      "published_sha256": "c9cec7e52bb3edc9bb0b3df5535461cae0c8de7266b6641d2cd1bbb9ba7d6b5a",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/controlled_solver.py",
+      "original_bytes": 36360,
+      "original_sha256": "c9cec7e52bb3edc9bb0b3df5535461cae0c8de7266b6641d2cd1bbb9ba7d6b5a",
+      "byte_identical": true
+    },
+    {
+      "path": "src/diagnose_no_cross.py",
+      "bytes": 11258,
+      "published_sha256": "8854f4a9eccb2a0969b264c87ee7b3229fb17e6b47929d84cdbb4062835bb96d",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/diagnose_no_cross.py",
+      "original_bytes": 11258,
+      "original_sha256": "8854f4a9eccb2a0969b264c87ee7b3229fb17e6b47929d84cdbb4062835bb96d",
+      "byte_identical": true
+    },
+    {
+      "path": "src/eval_audit.py",
+      "bytes": 10588,
+      "published_sha256": "c47904bf4f7731e82f31ee507dd02d1f92b83b37fd16340eaeeca2cdddfd7029",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/eval_audit.py",
+      "original_bytes": 10588,
+      "original_sha256": "c47904bf4f7731e82f31ee507dd02d1f92b83b37fd16340eaeeca2cdddfd7029",
+      "byte_identical": true
+    },
+    {
+      "path": "src/evaluate.py",
+      "bytes": 32957,
+      "published_sha256": "30fcf6be7dac584b18114333f70d32a51ed829541cabda632a05b554e2673134",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/evaluate.py",
+      "original_bytes": 32957,
+      "original_sha256": "30fcf6be7dac584b18114333f70d32a51ed829541cabda632a05b554e2673134",
+      "byte_identical": true
+    },
+    {
+      "path": "src/finalize.py",
+      "bytes": 3629,
+      "published_sha256": "51d105e7f1d6827a8c4500507084bd141be58bfd15d1e7281d8fed1c62a0f6ba",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/finalize.py",
+      "original_bytes": 3629,
+      "original_sha256": "51d105e7f1d6827a8c4500507084bd141be58bfd15d1e7281d8fed1c62a0f6ba",
+      "byte_identical": true
+    },
+    {
+      "path": "src/plotting.py",
+      "bytes": 9761,
+      "published_sha256": "09b4a53ad8c28ef2eb4e37af81046a7b1a205b5aa5a5642e5c898c614d2fc03e",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/plotting.py",
+      "original_bytes": 9761,
+      "original_sha256": "09b4a53ad8c28ef2eb4e37af81046a7b1a205b5aa5a5642e5c898c614d2fc03e",
+      "byte_identical": true
+    },
+    {
+      "path": "src/reporting.py",
+      "bytes": 42241,
+      "published_sha256": "29aead790792207b7e8e70a94fe9237432ffb25c67e986fea527efdefbfda2b2",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/reporting.py",
+      "original_bytes": 42241,
+      "original_sha256": "29aead790792207b7e8e70a94fe9237432ffb25c67e986fea527efdefbfda2b2",
+      "byte_identical": true
+    },
+    {
+      "path": "src/runtime.py",
+      "bytes": 5268,
+      "published_sha256": "0ad71c30cea1cd2901dbb5a4043c56942018f16a3d03b474a0bc9c9e46c77db3",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/runtime.py",
+      "original_bytes": 5268,
+      "original_sha256": "0ad71c30cea1cd2901dbb5a4043c56942018f16a3d03b474a0bc9c9e46c77db3",
+      "byte_identical": true
+    },
+    {
+      "path": "src/test_eval.py",
+      "bytes": 4414,
+      "published_sha256": "32a421160c12a9e4eaca77af7aaaccdb7ea2ef5e247efcbdc8ed6bdef6b0e6d4",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/test_eval.py",
+      "original_bytes": 4414,
+      "original_sha256": "32a421160c12a9e4eaca77af7aaaccdb7ea2ef5e247efcbdc8ed6bdef6b0e6d4",
+      "byte_identical": true
+    },
+    {
+      "path": "src/validate_controls.py",
+      "bytes": 6464,
+      "published_sha256": "0dab2b200e9bccff81bafc978baff475566a32f9f4c368e52e38ba4e48e406be",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/validate_controls.py",
+      "original_bytes": 6464,
+      "original_sha256": "0dab2b200e9bccff81bafc978baff475566a32f9f4c368e52e38ba4e48e406be",
+      "byte_identical": true
+    },
+    {
+      "path": "src/validate_inputs.py",
+      "bytes": 21937,
+      "published_sha256": "dc45ffb4ec4c76e8841d6da301f484ea2a01ecaa9854541189531fc5cfcf80f4",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/validate_inputs.py",
+      "original_bytes": 21937,
+      "original_sha256": "dc45ffb4ec4c76e8841d6da301f484ea2a01ecaa9854541189531fc5cfcf80f4",
+      "byte_identical": true
+    },
+    {
+      "path": "src/verify_full.py",
+      "bytes": 4497,
+      "published_sha256": "f82dfbcde774e91e51f69291331c4c00ba558922ddc766fd902e916880c1055a",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/src/verify_full.py",
+      "original_bytes": 4497,
+      "original_sha256": "f82dfbcde774e91e51f69291331c4c00ba558922ddc766fd902e916880c1055a",
+      "byte_identical": true
+    },
+    {
+      "path": "preservation/snapshot.py",
+      "bytes": 8715,
+      "published_sha256": "c5ec3aa526f863c7497c953a7b7e9bb768337ec4cac319df3793640a562dfbed",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/preservation/snapshot.py",
+      "original_bytes": 8715,
+      "original_sha256": "c5ec3aa526f863c7497c953a7b7e9bb768337ec4cac319df3793640a562dfbed",
+      "byte_identical": true
+    },
+    {
+      "path": "CODEX_CANDIDATES_BACKGROUND_ABLATION.md",
+      "bytes": 16395,
+      "published_sha256": "916d22e25110f9fb5363216073bd0f221207b385267ef9b5fa0d37160b2c0af4",
+      "transformations": [
+        "portable path display only"
+      ],
+      "source_path": "CODEX_CANDIDATES_BACKGROUND_ABLATION.md",
+      "original_bytes": 16395,
+      "original_sha256": "916d22e25110f9fb5363216073bd0f221207b385267ef9b5fa0d37160b2c0af4",
+      "byte_identical": true
+    },
+    {
+      "path": "configs/experiment.yaml",
+      "bytes": 5093,
+      "published_sha256": "af6fe60dceb7cb926ee37269ff6b07637942f223623cac430159a751d227997b",
+      "transformations": [
+        "replace original absolute repository root with ${ROBOTPOSE_ROOT} template"
+      ],
+      "source_path": "candidate_background_ablation_20261116/configs/experiment.yaml",
+      "original_bytes": 5103,
+      "original_sha256": "4d6d85513a16a1acbc93d0656b4dfcb3d1d995bdd1b255c7fdb6070fce9553e0",
+      "byte_identical": false
+    },
+    {
+      "path": "configure_local.py",
+      "bytes": 2579,
+      "published_sha256": "9998a9582eb79d16f13d751ed8db178bcc188a85a363c99adae22a3c1b154180",
+      "transformations": [],
+      "generated_for_publication": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 7661,
+      "published_sha256": "1fd73145de0fafca964d73d0d24c569e55e422522a0378274f3d658b83030bbf",
+      "transformations": [
+        "publication-specific execution instructions and artifact scope; measured values unchanged"
+      ],
+      "source_path": "candidate_background_ablation_20261116/README.md",
+      "original_bytes": 13915,
+      "original_sha256": "8d70c93c8031d75b88af206955f5fbea7d4434a3ae77802ff39e86b6dd045d49",
+      "byte_identical": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 129,
+      "published_sha256": "3e30f917bb0e811c390d867ad9f03e467263529668cafc2fe0ca521eab14a4e5",
+      "transformations": [],
+      "generated_for_publication": true
+    },
+    {
+      "path": "reports/final/bootstrap_sensitivity.csv",
+      "bytes": 39040,
+      "published_sha256": "6d7ea0bfbd8b7eb55a57d7e1d3ff05fadc55f09c306f40690a95b349e089a6ab",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/bootstrap_sensitivity.csv",
+      "original_bytes": 39040,
+      "original_sha256": "6d7ea0bfbd8b7eb55a57d7e1d3ff05fadc55f09c306f40690a95b349e089a6ab",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/failures.csv",
+      "bytes": 48108,
+      "published_sha256": "8391efac8491acc8ce9a8950fe1bce55f8ab77e16ea6bc9171f1f06d7e96960b",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/failures.csv",
+      "original_bytes": 48108,
+      "original_sha256": "8391efac8491acc8ce9a8950fe1bce55f8ab77e16ea6bc9171f1f06d7e96960b",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/method_bootstrap_sensitivity.csv",
+      "bytes": 32044,
+      "published_sha256": "204995fef40b55805396a68608794c8407b2e376be73db5fe49460d4b87cd376",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/method_bootstrap_sensitivity.csv",
+      "original_bytes": 32044,
+      "original_sha256": "204995fef40b55805396a68608794c8407b2e376be73db5fe49460d4b87cd376",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/paired_comparisons.csv",
+      "bytes": 16581,
+      "published_sha256": "6fe2084076c6c60e5f0359e3b437ae3e31d8b6abadeff572d83b0b560b5b0d90",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/paired_comparisons.csv",
+      "original_bytes": 16581,
+      "original_sha256": "6fe2084076c6c60e5f0359e3b437ae3e31d8b6abadeff572d83b0b560b5b0d90",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/per_observation_metrics.csv",
+      "bytes": 2438627,
+      "published_sha256": "f519c5b80f5d6e30a616531452301c8c9f2eccfe6a3a146f7faad946ee369f4c",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/per_observation_metrics.csv",
+      "original_bytes": 2438627,
+      "original_sha256": "f519c5b80f5d6e30a616531452301c8c9f2eccfe6a3a146f7faad946ee369f4c",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/production_reference.csv",
+      "bytes": 1174,
+      "published_sha256": "9b9783a83ba5f2efc80002111257128742c5bc8894ed898dd45d9312b2701800",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/production_reference.csv",
+      "original_bytes": 1174,
+      "original_sha256": "9b9783a83ba5f2efc80002111257128742c5bc8894ed898dd45d9312b2701800",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/summary_metrics.csv",
+      "bytes": 19875,
+      "published_sha256": "bcd5888395842d4a49d0adf90bd78774d5ecd23b4789bce30151e99c3210a40c",
+      "transformations": [],
+      "source_path": "candidate_background_ablation_20261116/reports/final/summary_metrics.csv",
+      "original_bytes": 19875,
+      "original_sha256": "bcd5888395842d4a49d0adf90bd78774d5ecd23b4789bce30151e99c3210a40c",
+      "byte_identical": true
+    },
+    {
+      "path": "reports/final/ablation_report_sources.json",
+      "bytes": 7424,
+      "published_sha256": "e30c65067e0d3e8d243686e96785ad13c0f4f18dabf33edc887606fc66b1445a",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/ablation_report_sources.json",
+      "original_bytes": 7074,
+      "original_sha256": "32371957c393238106d41c38f90b9decaf4ca7e3e846fa4a1a9f0bd0ffa6d8c4",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/bootstrap.json",
+      "bytes": 19754,
+      "published_sha256": "70d3e3fb2045b8b1115313fa68dcee738f2623f07bf7325f90a41acc1edd7166",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/bootstrap.json",
+      "original_bytes": 19753,
+      "original_sha256": "1e06c677b43e54474bf89f1f11fc016a1a1ca41407df2640cc13ed136ffa176a",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/curves.json",
+      "bytes": 46069,
+      "published_sha256": "d8952bb865dcd6f25721a8191a4ff74d682fe533d1346880e09b018d06e6f5c6",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/curves.json",
+      "original_bytes": 45696,
+      "original_sha256": "87cf38bc23856089cee821214d6302c769013c101338a70835e6af9493bb1b80",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/diagnostics.json",
+      "bytes": 11346,
+      "published_sha256": "cac6794276164d6fd9b6eb29241bd7b11cc22ae6f407945b1850958dc6cd5c22",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/diagnostics.json",
+      "original_bytes": 10968,
+      "original_sha256": "424d02c04603126d797c391cc29c74d171700e8f9c7e6670712b112e6314351f",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/evaluation.json",
+      "bytes": 29200,
+      "published_sha256": "c8460b9ed4a69744ed6ef030e56538ba8ba834ef9782a1ffa73aa88f9081b556",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/evaluation.json",
+      "original_bytes": 28842,
+      "original_sha256": "8910974e9d3d6c9a5ac48e1c05c4d918c7bf6a2af4de5c3d4399197f5449205d",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/examples.json",
+      "bytes": 7451,
+      "published_sha256": "f4fec713e4e0861da7527142dbf4a1c3b9c9ad97d0be97beda03282f0cba50b7",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/examples.json",
+      "original_bytes": 7089,
+      "original_sha256": "73c7147fe00c497005a493d16e6757713f7f533d885701715c1d9f2f00c9826a",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/production_identity.json",
+      "bytes": 4822,
+      "published_sha256": "a34cb978ed5178d756c8b25a9ad54f7239b6ba120c9e57229cf461c33d9db516",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/production_identity.json",
+      "original_bytes": 4441,
+      "original_sha256": "183cb9e64dc6e7145f2ecd3b8470e62332b95463a71a9ce00f767d38db951366",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/temporal_correlation.json",
+      "bytes": 4719,
+      "published_sha256": "f65d3dfe32f16879e48439da6f0548b92ccd5e82ec57f1ca000f93fe6cddb610",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/temporal_correlation.json",
+      "original_bytes": 4332,
+      "original_sha256": "d5d39d171f25f0ed4cf5a2716babcaf222f22b434d4080bb39c165cda086fcbd",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/config_and_report_audit.json",
+      "bytes": 5847,
+      "published_sha256": "dca00a857ed4978314f8b9242a0cea573eb104d2df9b0e9c70c7fc86fddc7f95",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/config_and_report_audit.json",
+      "original_bytes": 5466,
+      "original_sha256": "80f09888253b671632e795344b711d23ad3b043fb32830dd71e424ef40d4dd42",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/control_checks.json",
+      "bytes": 5443,
+      "published_sha256": "4a6706bf578cdec3d978b956d7f06d8345de2bc33bf073f3444a2fded70f2ad8",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/control_checks.json",
+      "original_bytes": 5065,
+      "original_sha256": "466945bf2dcd3750ca5d2a505c00a7b0201778a96072f00edd8da693ea29db1d",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/critical_sources_ready.json",
+      "bytes": 2138,
+      "published_sha256": "845c7ecabc41af8e82e423246095ba8c871589e39221793cf05f0a59c8b175f2",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run",
+        "replace large file-level source hash mapping with count and canonical mapping SHA256"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/critical_sources_ready.json",
+      "original_bytes": 4552318,
+      "original_sha256": "7f3f5e7c32905cd460af60b2d49028bebaafe44f06c6e6d3080c06f3ebd12f4f",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/full_output_contracts.json",
+      "bytes": 1015,
+      "published_sha256": "5c5e6e652dddd76d672038299c7951eb5abad0a731903793f4c527a23fd65590",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/full_output_contracts.json",
+      "original_bytes": 630,
+      "original_sha256": "b58830147234a7d315581821e3cb5228e9046e68adf0e34523d6e31c71bc0f55",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/independent_evaluation_audit_final.json",
+      "bytes": 1018,
+      "published_sha256": "ff35e56caf7f54adb08de44ea7b9db9e138330f52ed14d7c0e6d195cb59e0d8b",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/independent_evaluation_audit_final.json",
+      "original_bytes": 621,
+      "original_sha256": "ec7104b1d55083bb53a2620162e3b9783b5c15f32a63c9860b66bb569d732c49",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/input_audit.json",
+      "bytes": 4247,
+      "published_sha256": "ebf3ebee4f2dff317a38147b96a4b5e0f1740aa47589a2c7f8820286443c915b",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run",
+        "replace large file-level source hash mapping with count and canonical mapping SHA256"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/input_audit.json",
+      "original_bytes": 4554438,
+      "original_sha256": "8e2d11c473264c36df3f6075f5777cd735c6d9ea9b8c6e320e25732dea83d04f",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/input_audit_initial_schema_probe.json",
+      "bytes": 474,
+      "published_sha256": "a1c1983c3f92b9c0178aca0c8e96ec8a1240f57498f50d859792990c8294f3dd",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/input_audit_initial_schema_probe.json",
+      "original_bytes": 79,
+      "original_sha256": "f5cc30badff44f71f6ab26525b1705d8010d1cf037617e594b917622a8669854",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/mechanism_analysis.json",
+      "bytes": 492530,
+      "published_sha256": "7209de7c93c270512be4acf9cf464da58ee55eb8fc7e31d9d069b3a6e9d0aea0",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/mechanism_analysis.json",
+      "original_bytes": 492154,
+      "original_sha256": "2ac2151e44ced9101939f2ff8c9202e159098dbfefdba84b6177205b768f5ac8",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/no_cross_diagnostic.json",
+      "bytes": 67285,
+      "published_sha256": "824634425b3c69d96e59922ecfe6dba9eaa37d8dcee6c8840ec79f89b7f207b2",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/no_cross_diagnostic.json",
+      "original_bytes": 66910,
+      "original_sha256": "ba7c7d036ff6abaa871c26d2d5a2432aecc896c72915f9892fc09e1fa7c02895",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/report_structure_qa.json",
+      "bytes": 956,
+      "published_sha256": "076648da539b7f33bdf5b39dc8e50ae5d32f0661d8f33f0796b9c52ce01f5469",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/report_structure_qa.json",
+      "original_bytes": 574,
+      "original_sha256": "27dadf5d0970c09fe28858ac7ce68a7c30bd88d3030e0b3a8fcd1c3a3a82ca90",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/weights.json",
+      "bytes": 75243,
+      "published_sha256": "13962bcbbf865223bd6ee5416a8ab064b7ffe8dd4e4457e46a78744a37c2980c",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/validation/weights.json",
+      "original_bytes": 74875,
+      "original_sha256": "b29551f9e8390fbc2ae2999d09a13030ee3c2f4a8a75e3e3dbdcee9f1b3cb983",
+      "byte_identical": false
+    },
+    {
+      "path": "preservation/before_summary.json",
+      "bytes": 2146,
+      "published_sha256": "ea07c8a9baf4801c98cbefd37a20c0d2dae07785129bf4270854140b713f9737",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/preservation/before_summary.json",
+      "original_bytes": 1769,
+      "original_sha256": "713ce906f2a54b4b6cd9d76c4f07221ad9910afa725923eb82c1a3c5113c9376",
+      "byte_identical": false
+    },
+    {
+      "path": "preservation/after_full.json",
+      "bytes": 3688,
+      "published_sha256": "6fc17430581a77cd9a85d21261ab4345d15ad64a05b5a1b914783fbbce5d869e",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/preservation/after_full.json",
+      "original_bytes": 3313,
+      "original_sha256": "ee75859f348fa883f331c71ae3be15cae20b98de0d466705e58d42a2a706be5d",
+      "byte_identical": false
+    },
+    {
+      "path": "preservation/after_artifacts_metadata.json",
+      "bytes": 1087,
+      "published_sha256": "9399f06d96ee01b89377d29dd5790518b428e81d9569c2e3f520575d4393c4e4",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/preservation/after_artifacts_metadata.json",
+      "original_bytes": 697,
+      "original_sha256": "699a2e2f7fc0eeab63e42b1ec119ae55ded12dc297e41602bfd3c4b7da3c98d5",
+      "byte_identical": false
+    },
+    {
+      "path": "results/full/manifest.json",
+      "bytes": 10792,
+      "published_sha256": "0a6f72595171f3aa36b93dde2c44b6dbee01e8c4110aca7c945c25e39377b550",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run",
+        "summarize complete pair-id list; preserve completion counts and metrics"
+      ],
+      "source_path": "candidate_background_ablation_20261116/results/full/manifest.json",
+      "original_bytes": 46540,
+      "original_sha256": "e64ba167760b98fde0a3555a04b8e3eda35a4d4044c57a5f9d3e3e83b21f2c7a",
+      "byte_identical": false
+    },
+    {
+      "path": "completion_manifest.json",
+      "bytes": 15447,
+      "published_sha256": "3ac4d28c2c78443c526f6ac0ae935949b595ebed7976a1ee6a3cca5247f33c66",
+      "transformations": [
+        "portable path display; original artifact hashes still describe the original run"
+      ],
+      "source_path": "candidate_background_ablation_20261116/completion_manifest.json",
+      "original_bytes": 15077,
+      "original_sha256": "a1ce88b22c9a69e35d589cb03966e61184dd963de6a9595e913b491a751a3241",
+      "byte_identical": false
+    },
+    {
+      "path": "reports/final/ablation_report.html",
+      "bytes": 8169153,
+      "published_sha256": "0107d2f0e674790b24088af2a0525b61002172d816b78873076d937e9fa87a54",
+      "transformations": [
+        "portable path display only; embedded images and scientific results preserved",
+        "replace unavailable local artifact links with explicit local-only labels",
+        "append publication provenance notice"
+      ],
+      "source_path": "candidate_background_ablation_20261116/reports/final/ablation_report.html",
+      "original_bytes": 8168658,
+      "original_sha256": "e7b3812b6c5d15f67e87548608c1ea552ce26a67e50d35e8629a60b217ead490",
+      "byte_identical": false
+    }
+  ],
+  "file_count_excluding_this_manifest": 52,
+  "bytes_excluding_this_manifest": 11846352,
+  "excluded": [
+    {
+      "path": "reports/final/timings.csv",
+      "bytes": 16644135,
+      "reason": "large detailed per-solve trace; aggregate timings retained in diagnostics.json"
+    },
+    {
+      "path": "reports/final/bootstrap_indices.npz",
+      "bytes": 798342,
+      "reason": "binary evaluation/bootstrap arrays remain local; scientific summary and per-observation CSV are included"
+    },
+    {
+      "path": "reports/final/evaluation_arrays.npz",
+      "bytes": 1941845,
+      "reason": "binary evaluation/bootstrap arrays remain local; scientific summary and per-observation CSV are included"
+    },
+    {
+      "path": "reports/final/figures/",
+      "reason": "PNG images already embedded in the HTML; duplicate PNG/SVG omitted"
+    },
+    {
+      "path": "results/full/pairs/ and pair_results.jsonl",
+      "reason": "large detailed pose/responsibility records retained locally"
+    },
+    {
+      "path": "results/full/initializations.jsonl",
+      "reason": "large pair initialization arrays retained locally"
+    },
+    {
+      "path": "cache/, tmp/, dataset and model weights",
+      "reason": "runtime caches and heavy input data excluded"
+    },
+    {
+      "path": "reports/full/, reports/smoke_evaluation/, logs/",
+      "reason": "earlier output and execution logs excluded"
+    },
+    {
+      "path": "preservation/before_metadata.jsonl and before_hashes.jsonl",
+      "reason": "large workspace inventories retained locally"
+    }
+  ],
+  "disabled_local_report_links": [
+    "timings.csv",
+    "bootstrap_indices.npz"
+  ],
+  "hash_semantics": "original_sha256 describes the immutable local experiment artifact; published_sha256 describes the corresponding released copy. Embedded original run hashes are historical provenance, not release-file hashes."
+}

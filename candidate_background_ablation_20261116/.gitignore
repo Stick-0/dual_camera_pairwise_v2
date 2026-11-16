@@ -1,0 +1,9 @@
+__pycache__/
+cache/
+tmp/
+*.local.yaml
+results/*
+!results/full/
+results/full/*
+!results/full/manifest.json
+reports/reproduction*/

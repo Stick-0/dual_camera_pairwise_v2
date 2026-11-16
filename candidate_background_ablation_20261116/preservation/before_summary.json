@@ -1,0 +1,45 @@
+{
+  "root": "${ROBOTPOSE_ROOT}",
+  "excluded_new_tree": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116",
+  "metadata_entries": 1694629,
+  "counts_by_hash_scope": {
+    "not_regular_file": 9408,
+    "sha256": 443394,
+    "unused_archive_video_metadata_only": 24,
+    "unused_dataset_metadata_only": 1180532,
+    "environment_metadata_only": 61271
+  },
+  "bytes_by_hash_scope": {
+    "not_regular_file": 102031770,
+    "sha256": 614652039520,
+    "unused_archive_video_metadata_only": 4712218460,
+    "unused_dataset_metadata_only": 42794529680,
+    "environment_metadata_only": 9874873076
+  },
+  "metadata_covers_all_discovered_original_workspace_entries": true,
+  "metadata_errors": [],
+  "hash_scope": "All regular workspace files except installed environments, unused Data subtrees, and archive/video files; all UR_dual_2596 dataset files and all original code/config/checkpoint/result/cache files outside those exceptions are hashed.",
+  "access_times_intentionally_not_compared": "Reading may update atime; content, size, mode, ownership, mtime, ctime, inode and symlink target are preserved.",
+  "started_unix": 1794795112.5838292,
+  "hashes_complete": true,
+  "completed_unix": 1794795335.7191017,
+  "hashed_files": 443394,
+  "hash_errors": [],
+  "metadata_sha256": "392903ef73cf08ad6e9fd3967cf2556cd435c8f5658c787157c9b3d43b9c50f4",
+  "hashes_manifest_sha256": "c1529f8f13394496ca79a2d6deab804c003b4ab0013af4bdf755ace111938066",
+  "sandbox_managed_mount_roots": [
+    ".agents",
+    ".aws",
+    ".codex",
+    ".git"
+  ],
+  "sandbox_mount_limit": "Managed read-only mount roots have per-tool-invocation mtime/ctime/device. Final comparison reports changes in these surface fields separately; hidden host-side contents are not claimed inventoried.",
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "713ce906f2a54b4b6cd9d76c4f07221ad9910afa725923eb82c1a3c5113c9376",
+    "original_relative_path": "preservation/before_summary.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

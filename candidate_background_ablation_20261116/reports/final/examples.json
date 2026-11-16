@@ -1,0 +1,180 @@
+{
+  "examples": [
+    {
+      "contrast": "R1-R0",
+      "direction": "improved",
+      "available": true,
+      "pair_id": "002433",
+      "delta_ADD_mm": -143.02275943898633,
+      "before": "R0",
+      "after": "R1",
+      "before_ADD_mm": [
+        312.7650948330272,
+        74.60734540184818
+      ],
+      "after_ADD_mm": [
+        43.36879930893475,
+        57.95812204796803
+      ],
+      "image": "figures/example_R1-R0_improved_002433.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "R1-R0",
+      "direction": "worsened",
+      "available": true,
+      "pair_id": "002471",
+      "delta_ADD_mm": 84.96737995574081,
+      "before": "R0",
+      "after": "R1",
+      "before_ADD_mm": [
+        44.98826268973115,
+        48.615221071927984
+      ],
+      "after_ADD_mm": [
+        108.84339201723125,
+        154.6948516559095
+      ],
+      "image": "figures/example_R1-R0_worsened_002471.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "E1-E0",
+      "direction": "improved",
+      "available": true,
+      "pair_id": "000710",
+      "delta_ADD_mm": -479.7267673491903,
+      "before": "E0",
+      "after": "E1",
+      "before_ADD_mm": [
+        19.842844693388827,
+        954.6925646625165
+      ],
+      "after_ADD_mm": [
+        7.88871927423446,
+        7.193155383290244
+      ],
+      "image": "figures/example_E1-E0_improved_000710.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "E1-E0",
+      "direction": "worsened",
+      "available": true,
+      "pair_id": "001470",
+      "delta_ADD_mm": 100.3883233943017,
+      "before": "E0",
+      "after": "E1",
+      "before_ADD_mm": [
+        222.77558463502524,
+        43.25827030872771
+      ],
+      "after_ADD_mm": [
+        202.0271900690343,
+        264.783311663322
+      ],
+      "image": "figures/example_E1-E0_worsened_001470.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "E0-R0",
+      "direction": "improved",
+      "available": true,
+      "pair_id": "002476",
+      "delta_ADD_mm": -97.07520884673096,
+      "before": "R0",
+      "after": "E0",
+      "before_ADD_mm": [
+        57.85205726642496,
+        259.1305027393631
+      ],
+      "after_ADD_mm": [
+        57.85267092138561,
+        64.97947139094055
+      ],
+      "image": "figures/example_E0-R0_improved_002476.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "E0-R0",
+      "direction": "worsened",
+      "available": true,
+      "pair_id": "000710",
+      "delta_ADD_mm": 473.4210755375239,
+      "before": "R0",
+      "after": "E0",
+      "before_ADD_mm": [
+        19.842496744793127,
+        7.850761536064467
+      ],
+      "after_ADD_mm": [
+        19.842844693388827,
+        954.6925646625165
+      ],
+      "image": "figures/example_E0-R0_worsened_000710.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "E1-R1",
+      "direction": "improved",
+      "available": true,
+      "pair_id": "002475",
+      "delta_ADD_mm": -40.33261087879464,
+      "before": "R1",
+      "after": "E1",
+      "before_ADD_mm": [
+        98.85427140961866,
+        124.49121370042616
+      ],
+      "after_ADD_mm": [
+        60.828393834253035,
+        81.85186951820252
+      ],
+      "image": "figures/example_E1-R1_improved_002475.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    },
+    {
+      "contrast": "E1-R1",
+      "direction": "worsened",
+      "available": true,
+      "pair_id": "002433",
+      "delta_ADD_mm": 189.69429214461502,
+      "before": "R1",
+      "after": "E1",
+      "before_ADD_mm": [
+        43.36879930893475,
+        57.95812204796803
+      ],
+      "after_ADD_mm": [
+        206.75299595316716,
+        273.9625096929657
+      ],
+      "image": "figures/example_E1-R1_worsened_002433.png",
+      "selection_rule": "Within full/final both-camera common-valid pairs, largest signed pair-mean ADD improvement/worsening; pair_id tie break. Evaluation-only visualization, not tuning."
+    }
+  ],
+  "input_sha256": {
+    "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/candidates.json": "59361d59dbd16522c2558177ece885ffb83b779fcdcbcfd718130fbd0ce11dae",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera1/rgb/002433.png": "fbce02c4e0ef1dbde6dd28b12d09c705c6b80fe0c78609cb6be4cd507c0e1647",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera2/rgb/002433.png": "7271e2a3ece7895cab47faa1a77e59de7749df2961f6577fc25507b20c21bc97",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera1/rgb/002471.png": "06d7d2d6e540390f86e02b590450346d3bd93067a66471e79d9adcd125dc6a80",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera2/rgb/002471.png": "27d5285b892e909c562b53eba457525b21ba7233818494c2a70e9ef8f89f1dea",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera1/rgb/000710.png": "0f6e0c8331281063df50673383deac75db62ed475a0e2a689d83d0e9d778d491",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera2/rgb/000710.png": "dfa1a31139f5f6fa578b5634cb48a912ce75480d283e08c641b86c39bbf6c8b9",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera1/rgb/001470.png": "4a84996e005459874fe02c661d69e184748761590e81fe8dbc3f590ecd5c8a3d",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera2/rgb/001470.png": "779d5516cf9b568696d6d01c783703201c05f18d800379131089954ee3ed63b1",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera1/rgb/002476.png": "1488aadd954ade2396bccfcb2cd8f2125fc18a940973f873f409f566d0ebe438",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera2/rgb/002476.png": "1d3343817de38a52e39a0240f982865f8f00f1eca9c2482e9cc84740451f7d6c",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera1/rgb/002475.png": "d5a5997d5e151223c23704c8f3f19bc4e0c1b69b9d84e9c2f8d05e6d1d0a7fa6",
+    "${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596/camera2/rgb/002475.png": "5ae60268cdda84d2b9fa199c802ea60abbfc2143602d4ac30d610f34da98dd82"
+  },
+  "input_hashes_unchanged": true,
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "73c7147fe00c497005a493d16e6757713f7f533d885701715c1d9f2f00c9826a",
+    "original_relative_path": "reports/final/examples.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "available": true,
+  "evaluation": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/reports/evaluation_roma_v2_all",
+  "rows_checked": 10384,
+  "production_manifest": {
+    "schema_version": 2,
+    "config": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/configs/ur_dual_2596_pairwise.yaml",
+    "config_identity": "28b11d38eb5d8fb2d7d970af25b2a9fdcd13f3b0bddb5afdb9b0bb0a34963444",
+    "pairs_manifest": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/pairs.jsonl",
+    "pairs_sha256": "b01687d8562d0fe0299229ffcff0287af10873971610fde52e6150626ed41fe3",
+    "observations_manifest": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/observations.json",
+    "observations_identity": "0a9e283508c4c4da7f02565495ff29d07f19ea187ec1d85081811bbbdb17e462",
+    "matches_manifest": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/matches/roma_v2/manifest.json",
+    "matches_sha256": "d71d6983339f54eff49fc3db75a9c6e1b9633f9b10f0b9eeb40346c94ff26503",
+    "methods": [
+      "mono_mean",
+      "mono_candidates",
+      "dual_mean",
+      "dual_candidates",
+      "dual_no_cross"
+    ],
+    "split": "all",
+    "workers": 12,
+    "reference_paths_read": false,
+    "previous_pose_fields_used": false,
+    "current_pair_only": true,
+    "source_code_sha256_at_start": {
+      "run.py": "b6e74eca2346285a4c9da7e1ca4cc82a2bad0234ee9c8cd7153384a796fa6f6f",
+      "pairwise/__init__.py": "3238e4b2c7d9ec25893dc7af3d579295cf0b215e56a7933b96220330c4971a64",
+      "pairwise/bridge.py": "b08bab54bddcdf7f6de4e336b97c96dfb62628a7c7fffa668455d230a79b4a3b",
+      "pairwise/candidates.py": "a3ff1f536a472ee961df7add7cd88ddb31b8d1744a56dfda49927651ce0f8d98",
+      "pairwise/evaluation.py": "a465a7f33318648d56eb08b624bfa7391994c1b0f54014d31969caf619483d71",
+      "pairwise/geometry.py": "90f63f7d9dc1c0fea47cc6f4535311adc9c870351f99cfa0260687f468c4e59c",
+      "pairwise/matching.py": "be9ae54e3d4bb5cc0ba945d222f96bec544e3dd0e4894f24434bcef2a2eabff7",
+      "pairwise/preservation.py": "e29533c3ce7ec16495616afb0ba1d2cf70887b057cf95366c4b41e28f58bb3fb",
+      "pairwise/runtime.py": "1c46db0293f924b46bfda58b34c63142a8f0104f5394644c6b9a528b84d1fd05",
+      "pairwise/solver.py": "af0216e3937aba27762d187a84bd69b9225a93ebffd51f6f0640ec72ff571868"
+    },
+    "started_unix_s": 1794661252.3088,
+    "completed": true,
+    "wall_time_s": 371.3216856819927,
+    "source_code_sha256": {
+      "run.py": "b6e74eca2346285a4c9da7e1ca4cc82a2bad0234ee9c8cd7153384a796fa6f6f",
+      "pairwise/__init__.py": "3238e4b2c7d9ec25893dc7af3d579295cf0b215e56a7933b96220330c4971a64",
+      "pairwise/bridge.py": "b08bab54bddcdf7f6de4e336b97c96dfb62628a7c7fffa668455d230a79b4a3b",
+      "pairwise/candidates.py": "a3ff1f536a472ee961df7add7cd88ddb31b8d1744a56dfda49927651ce0f8d98",
+      "pairwise/evaluation.py": "a465a7f33318648d56eb08b624bfa7391994c1b0f54014d31969caf619483d71",
+      "pairwise/geometry.py": "90f63f7d9dc1c0fea47cc6f4535311adc9c870351f99cfa0260687f468c4e59c",
+      "pairwise/matching.py": "be9ae54e3d4bb5cc0ba945d222f96bec544e3dd0e4894f24434bcef2a2eabff7",
+      "pairwise/preservation.py": "e29533c3ce7ec16495616afb0ba1d2cf70887b057cf95366c4b41e28f58bb3fb",
+      "pairwise/runtime.py": "1c46db0293f924b46bfda58b34c63142a8f0104f5394644c6b9a528b84d1fd05",
+      "pairwise/solver.py": "af0216e3937aba27762d187a84bd69b9225a93ebffd51f6f0640ec72ff571868"
+    },
+    "source_code_changed_during_run": false
+  },
+  "pairs_sha_matches_current": true,
+  "observations_manifest_same_path": true,
+  "source_code_sha_matches_current": {
+    "run.py": true,
+    "pairwise/__init__.py": true,
+    "pairwise/bridge.py": true,
+    "pairwise/candidates.py": true,
+    "pairwise/evaluation.py": true,
+    "pairwise/geometry.py": true,
+    "pairwise/matching.py": true,
+    "pairwise/preservation.py": true,
+    "pairwise/runtime.py": true,
+    "pairwise/solver.py": true
+  },
+  "observations_identity_matches_current": true,
+  "observation_identity_definition": "SHA256 of canonical JSON excluding the identity field itself; same as original ObservationStore.",
+  "production_matches_unchanged": true,
+  "matches_same_as_controlled_run": true,
+  "not_same_algorithm_as_E1": true,
+  "difference": "Historical top-3 joint-start policy versus one shared family-specific start per controlled condition.",
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "183cb9e64dc6e7145f2ecd3b8470e62332b95463a71a9ce00f767d38db951366",
+    "original_relative_path": "reports/final/production_identity.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}

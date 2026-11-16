@@ -1,0 +1,167 @@
+schema_version: 2
+experiment: candidates_background_initialization_controlled_2596
+seed: 0
+source:
+  repository: ${ROBOTPOSE_ROOT}
+  dataset: ${ROBOTPOSE_ROOT}/Data/real/Dual_UR/UR_dual_2596
+  checkpoint: ${ROBOTPOSE_ROOT}/trained_models/ur5e_new2/last.pt
+  checkpoint_sha256: 7b5e518c15a54a7e5146d8b658a2d71f3e185866b8be69f9e8409df2ccc10d8c
+  fresh_observations: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/observations.json
+estimation:
+  pose_mode: per_pair
+  geometry_mode: current_pair
+  temporal_prior: false
+  use_static_base_pose: false
+  aggregate_robot_frames: false
+  reuse_previous_robot_pose: false
+  reuse_previous_relative_pose: false
+  use_legacy_B_initialization: false
+  use_reference_for_inference: false
+observations:
+  stage: raw_voting
+  use_camera_specific_q: true
+  preserve_raw_arrays: true
+  robot_candidate_epipolar_gate: disabled
+  covariance_floor_std_px: 1.0
+matching:
+  backend: roma_v2
+  comparison_backend: loftr_indoor_ds
+  pretrained_only: true
+  training_enabled: false
+  mask_mode: current_frame_endpoints
+  use_sequence_union_mask: false
+  use_temporal_background_composite: false
+  output_coordinates: native_pixels
+  sample_before_filter: 4096
+  max_spatially_selected_matches: 300
+  background_noise_std_px: 1.5
+  use_match_score_as_inverse_variance: false
+  mask_dilation_px: 50
+  roma_setting: fast
+  roma_bidirectional: true
+  min_score: 0.2
+  cycle_threshold_px: 3.0
+  grid_cell_px: 16
+  min_spacing_px: 8.0
+  device: cuda
+  mask_shape_policy: original
+  seed: 0
+geometry:
+  initialization_routes:
+  - rgb_essential
+  - current_pair_monocular
+  refine_relative_rotation_and_translation: true
+  add_E_as_independent_prior: false
+  add_monocular_pose_as_independent_prior: false
+  require_actual_cross_view_observations: true
+candidates:
+  source: original_voting_debug
+  preserve_original_scores: true
+  likelihood: gaussian_mixture_with_outlier
+  kernel_policy: explicit_isotropic_if_component_covariance_missing
+  kernel_std_px: 2.0
+  outlier_probability: 0.05
+  score_policy: normalized_nonnegative_vote_support
+  max_em_iterations: 10
+  generate_synthetic_candidates_from_pose: false
+solver:
+  covariance_floor_px: 1.0
+  huber_delta: 3.0
+  max_nfev: 60
+  irls_iterations: 3
+  min_rgb_matches: 8
+  max_rgb_matches: 80
+  rgb_noise_std_px: 1.5
+  lambda_rgb: 1.0
+  min_parallax_deg: 0.15
+  min_rgb_hull_fraction: 0.005
+  max_rgb_median_error_px: 3.0
+  min_baseline_m: 0.002
+  max_baseline_m: 10.0
+  max_reduced_condition: 1000000000000.0
+  min_effective_robot_per_camera: 2
+  max_pose_starts: 3
+  max_joint_starts: 1
+  max_rgb_p90_error_px: 8.0
+  min_effective_robot_total: 7.0
+  min_effective_rgb_weight: 0.2
+  min_positive_depth_fraction: 0.95
+  max_robot_median_error_px: 30.0
+  pnp_ransac_threshold_px: 12.0
+  essential_ransac_threshold_px: 2.0
+  depth_min_m: 0.001
+  depth_penalty_scale: 1000.0
+  pose_translation_scale_m: 0.5
+  final_rank_relative_tolerance: 1.0e-10
+  initialization_ambiguity_cost_tolerance: 1.0
+  initialization_ambiguity_rotation_deg: 20.0
+  initialization_ambiguity_translation_m: 0.25
+methods:
+- R0
+- R1
+- E0
+- E1
+evaluation:
+  split_policy: all_only_user_requested
+  evaluate_cameras_separately: true
+  keep_failed_rows: true
+  fallback_in_stereo_metrics: false
+  reference_role: evaluation_only
+  successful_pose_only: false
+  full_camera_denominator: 5192
+  auc_thresholds_mm:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  - 30
+  - 35
+  - 40
+  - 45
+  - 50
+  - 55
+  - 60
+  - 65
+  - 70
+  - 75
+  - 80
+  - 85
+  - 90
+  - 95
+  - 100
+  add_definition: original FK seven points at each camera capture q, millimeters
+  strict_threshold: true
+inputs:
+  pairs: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/pairs.jsonl
+  observations: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/observations.json
+  matches: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/matches/roma_v2/manifest.json
+  reference: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/reference.jsonl
+reference:
+  production_run: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/runs/roma_v2_full2596
+  production_evaluation: ${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/reports/evaluation_roma_v2_all
+bootstrap:
+  block_seconds:
+  - 1.0
+  - 0.5
+  - 2.0
+  n_resamples: 2000
+  seed: 0
+  timestamp: mean of both camera timestamp_s
+  sampling: nonoverlapping time bins anchored at first pair, with replacement; original
+    axis before validity masks
+control:
+  joint_starts_per_condition: 1
+  initialization_selection: robot objective only, deterministic proposal-id tie break
+  E_failure_policy: explicit failure; no monocular fallback
+  shared_background_observations: deterministic maximum 80 original valid matches;
+    never E inlier filtering
+  smoke_pair_ids:
+  - '000000'
+  - 000519
+  - 001298
+  - 002595
+  workers: 12
+  optimizer_device: cpu
+  cached_inference_device: cuda (historical immutable input cache)

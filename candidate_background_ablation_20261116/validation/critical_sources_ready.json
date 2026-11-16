@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "weights": {
+    "robot_checkpoint": "${ROBOTPOSE_ROOT}/trained_models/ur5e_new2/last.pt",
+    "robot_checkpoint_sha256": "7b5e518c15a54a7e5146d8b658a2d71f3e185866b8be69f9e8409df2ccc10d8c",
+    "roma_checkpoint": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/weights/romav2.0.1.pt",
+    "roma_checkpoint_sha256": "1557dec0d21b62366465f7ff4d5fdf228cc695d0582e196ad2b80e05230828b7",
+    "roma_source_commit": "95c9968145c8906b7b59383258e9f73b02853d89",
+    "roma_source_worktree_clean": true,
+    "dinov3_source_commit": "adc254450203739c8149213a7a69d8d905b4fcfa",
+    "dinov3_source_archive_sha256": "0c6a0270fba974a87ee79c5b94a1f7953919458a025128a08c780e8186f83bad",
+    "dinov3_weight_storage": "f.* tensor subset embedded in complete romav2.0.1.pt; no separate DINO checkpoint is loaded by the default configuration",
+    "dinov3_tensor_count": 368,
+    "dinov3_parameter_elements": 303227920,
+    "dinov3_tensor_manifest_identity": "b8d3819df4e6562719c7dcf9ab8c6e3327476c3217943559e17a33db88de643f",
+    "tensor_hash_rule": "SHA256(torch dtype string + tuple shape string + contiguous raw bytes); aggregate canonical JSON identity",
+    "weights_loaded_only_on_CPU_for_hash_audit": true,
+    "models_instantiated": false,
+    "torch_version": "2.11.0+cu128",
+    "torch_cuda_available": false
+  },
+  "all_frames_and_matches_complete": true,
+  "source_sha256_summary": {
+    "omitted_entries": 25995,
+    "original_mapping_canonical_sha256": "db2e8113e86a71a1b5dbf45802f69a112e8d2d803934e1d59ac6c32a31825b60",
+    "storage": "Full file-level hash mapping retained in the immutable local original; omitted from lightweight release."
+  },
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "7f3f5e7c32905cd460af60b2d49028bebaafe44f06c6e6d3080c06f3ebd12f4f",
+    "original_relative_path": "validation/critical_sources_ready.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run",
+      "replace large file-level source hash mapping with count and canonical mapping SHA256"
+    ]
+  }
+}

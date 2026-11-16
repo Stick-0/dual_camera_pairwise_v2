@@ -1,0 +1,469 @@
+pair_id,method,gate,status,reason,pre_eligible
+000026,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000026,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000026,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000026,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000039,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000039,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000039,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000039,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000042,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000042,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000042,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000042,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000043,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000043,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000043,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000043,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000044,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000044,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000044,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000044,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000045,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000045,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000045,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000045,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000046,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000046,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000046,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000046,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000047,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000047,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000049,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000049,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000049,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000049,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000056,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000056,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000056,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000056,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000057,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000057,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000057,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000057,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000077,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000077,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000077,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000077,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000078,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000078,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000078,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000078,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000082,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000082,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000083,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000083,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000083,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000083,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000084,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000084,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000084,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000084,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000087,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000087,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000087,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000087,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000088,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000088,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000089,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000089,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000089,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000089,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000090,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000090,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000090,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000090,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000091,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000091,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000091,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000091,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000092,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000092,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000092,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000092,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000093,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000093,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000094,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000094,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000094,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000094,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000095,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000095,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000095,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000095,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000096,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000096,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000096,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000096,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000106,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000106,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000106,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000106,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000116,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000116,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000124,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000124,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000127,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000127,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000127,E1,common,common_gate_failed,"[""nonfinite_or_negative_robot_depth"", ""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000127,E1,final,common_gate_failed,nonfinite_or_negative_robot_depth,True
+000187,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000187,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000192,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000192,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000276,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000276,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000276,E1,common,common_gate_failed,"[""nonfinite_or_negative_robot_depth"", ""insufficient_final_robot_information""]",True
+000276,E1,final,common_gate_failed,nonfinite_or_negative_robot_depth,True
+000278,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000278,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000278,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000278,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000280,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000280,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000280,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000280,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000282,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000282,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000282,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000282,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000283,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000283,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000284,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000284,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000284,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000284,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000285,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000285,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000285,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000285,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000286,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000286,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000287,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000287,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000287,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000287,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000289,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000289,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000289,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000289,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000296,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000296,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000296,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000296,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000424,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000424,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000424,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000424,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000428,E0,common,common_gate_failed,"[""reduced_pose_system_rank_or_condition""]",True
+000428,E0,final,common_gate_failed,reduced_pose_system_rank_or_condition,True
+000483,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000483,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000488,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000488,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000494,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000494,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000494,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000494,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000511,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000511,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000511,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000511,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000661,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000661,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000661,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000661,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000671,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+000671,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000676,E0,common,common_gate_failed,"[""reduced_pose_system_rank_or_condition""]",True
+000676,E0,final,common_gate_failed,reduced_pose_system_rank_or_condition,True
+000702,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000702,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000702,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000702,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000711,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000711,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000711,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000711,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000717,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000717,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000718,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000718,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000718,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000718,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000719,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000719,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000719,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000719,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000722,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000722,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000722,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000722,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000727,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000727,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000727,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000727,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000728,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000728,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000732,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000732,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000732,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000732,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000733,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000733,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000733,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000733,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000735,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000735,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000735,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000735,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000739,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000739,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000739,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000739,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000744,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000744,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000744,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000744,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000746,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000746,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000746,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000746,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000748,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000748,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000748,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000748,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000764,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000764,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000764,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000764,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000795,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000795,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000795,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000795,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000798,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000798,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000798,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000798,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000799,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000799,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000799,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000799,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000818,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000818,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000818,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000818,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000869,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000869,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000869,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000869,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000898,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000898,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000898,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000898,E1,final,common_gate_failed,insufficient_final_robot_information,True
+000944,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000944,E0,final,common_gate_failed,insufficient_final_robot_information,True
+000944,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+000944,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001049,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001049,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001049,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001049,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001054,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001054,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001134,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001134,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001134,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001134,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001137,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001137,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001137,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001137,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001155,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001155,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001203,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001203,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001207,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001207,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001207,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001207,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001224,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001224,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001224,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001224,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001225,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001225,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001225,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001225,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001226,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001226,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001226,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001226,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001227,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001227,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001227,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001227,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001228,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001228,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001238,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001238,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001238,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001238,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001239,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001239,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001239,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001239,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001240,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001240,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001240,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001240,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001241,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001241,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001241,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001241,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001256,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001256,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001262,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001262,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001262,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001262,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001354,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001354,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001354,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001354,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001409,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001409,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001414,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001414,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001418,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001418,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001420,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001420,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001421,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001421,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001425,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001425,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001498,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001498,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001498,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001498,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001662,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001662,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001662,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001662,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001674,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001674,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001674,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001674,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001690,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001690,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001690,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001690,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001825,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001825,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001825,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001825,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001831,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001831,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001832,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001832,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001832,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001832,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001835,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001835,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001835,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001835,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001837,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001837,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001837,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001837,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001891,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001891,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001891,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001891,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001899,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001899,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001899,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001899,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001906,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001906,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001906,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001906,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001922,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001922,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001924,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001924,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001924,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+001924,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001926,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001926,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001926,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001926,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001932,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001932,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001932,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001932,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001951,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001951,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001951,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001951,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001974,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001974,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001974,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001974,E1,final,common_gate_failed,insufficient_final_robot_information,True
+001980,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001980,E0,final,common_gate_failed,insufficient_final_robot_information,True
+001980,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+001980,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002020,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002020,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002020,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002020,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002022,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002022,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002022,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002022,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002349,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002349,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002349,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002349,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002350,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002350,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002350,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002350,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002366,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002366,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002377,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002377,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002377,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002377,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002381,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002381,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002381,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002381,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002427,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+002427,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002428,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+002428,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002430,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+002430,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002434,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+002434,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002435,E1,common,common_gate_failed,"[""insufficient_final_robot_information""]",True
+002435,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002471,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002471,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002471,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002471,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002477,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002477,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002477,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002477,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002478,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002478,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002478,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002478,E1,final,common_gate_failed,insufficient_final_robot_information,True
+002480,E0,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002480,E0,final,common_gate_failed,insufficient_final_robot_information,True
+002480,E1,common,common_gate_failed,"[""insufficient_final_robot_information"", ""reduced_pose_system_rank_or_condition""]",True
+002480,E1,final,common_gate_failed,insufficient_final_robot_information,True

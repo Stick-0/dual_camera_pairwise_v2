@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "pair_id": "000000",
+      "family": "R",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "7c59e7933d5e605db008631a485a6bd3b5948c0ef175a332b667bd38c93a8fc1",
+      "responsibility_hash": "9440454f9c33387c53aff62a606031c633cf0c6bea5de741a5769046e10d4c4c",
+      "OFF_result_hash_without_timing": "ea3ed6f5b370794284fb3285eb1fe13390735e9a6b69c84d71cb7a7b400bb5e2",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "000000",
+      "family": "E",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "ac249dc5ec766643daef5a26d8cda35e6825b2d777de88d58db5800e38e301e2",
+      "responsibility_hash": "20c5bb6354895fd6d6bf0ba28ad8a0d5712ad4d349ac6b9cffce383984f50ea7",
+      "OFF_result_hash_without_timing": "23a2bd0d34befac8611a2bf1fa370e536fd13b2d3d7e1bde2c5aa0e7b477cd9f",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "000519",
+      "family": "R",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "813fd044e6f0c53a764c4ff88ffb1890f9d777f3c9d476cccead1c21f6821b86",
+      "responsibility_hash": "c067d49807b7a77395a1bfdb07ebfa7a378b8dc39ba6aae44bf9a3ba6e2bb2c3",
+      "OFF_result_hash_without_timing": "d5c66d4e72ba8a6bd87b695a0f72ac9c8f611cef54bde79bb0945cf68f6d57a3",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "000519",
+      "family": "E",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "55edf8a4dffd73868eef7a99abf7a5bd2714c4414731fa8ddef0d8ccf40cd724",
+      "responsibility_hash": "65e16a900c9a4dbcbd6586d10510e415e36273fbc00074939b1cba9d68fbe0af",
+      "OFF_result_hash_without_timing": "d6af6f6b8e0f006cad9fdecb57234338354ad2e823d3615f62976223dbc33365",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "001298",
+      "family": "R",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "160a033c6b328fdc9675ec1538a68be2658f83f338317f1f86e3c1085c5fea3b",
+      "responsibility_hash": "fdcb59e1d2832c60deb25b4e5008f2cf288d782c17884003f1cac47f25d41edf",
+      "OFF_result_hash_without_timing": "447e7a733933e46092ced1cf2999dc4c8557f0d441ae01aaa91415c5220c1227",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "001298",
+      "family": "E",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "5c548b91d6d1f4e96bad4ff78abaa96ae3d3c43a7e709b4940e50736f4a8fcfe",
+      "responsibility_hash": "1ef7d93d44d283e5d069b0c907547535a582e26204a1f795dfbe3019c0ea244f",
+      "OFF_result_hash_without_timing": "71fea2227a3b010bc9b861cbc977c7aa8097b0891edbdc27ff7f31d1acf2d131",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "002595",
+      "family": "R",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "e462b04c3e2b257286a37ce7ef573a86d0c16df7b13ac738bf13e77de9dbfde6",
+      "responsibility_hash": "a40133be482f642c94202aa1929847a2a0ed1e40eca2afe1babc795925c58173",
+      "OFF_result_hash_without_timing": "07033336a202c33bd78a9fe7f339b3d07867726460c6baa34bcecf75c91b63e8",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "pair_id": "002595",
+      "family": "E",
+      "test": "shared_initial_pose_observations_responsibility_and_OFF_invariance",
+      "passed": true,
+      "initial_hash": "e451644f4e0cd8c0f1af44dfb671a19c9e70937df9a2b53ce748bb14afe83a24",
+      "responsibility_hash": "748fa398baa56ef5dfd032c189f461496e207256c8f31f515ad61b96233f3e33",
+      "OFF_result_hash_without_timing": "175bbe019409b56c1a79672bc1ee42c543ef9a19fd4e2a9c02f311127427fe18",
+      "OFF_parameter_count": 12,
+      "OFF_residual_rows": 238,
+      "OFF_residual_exactly_robot_candidates_plus_depth": true
+    },
+    {
+      "test": "missing_matching_keeps_R0_and_explicit_E_failure",
+      "passed": true,
+      "R0_status": "accepted"
+    },
+    {
+      "test": "reference_read_denied_during_inference",
+      "passed": true
+    }
+  ],
+  "prespecified_pairs": [
+    "000000",
+    "000519",
+    "001298",
+    "002595"
+  ],
+  "_publication": {
+    "role": "portable publication copy of original experiment artifact",
+    "original_file_sha256": "466945bf2dcd3750ca5d2a505c00a7b0201778a96072f00edd8da693ea29db1d",
+    "original_relative_path": "validation/control_checks.json",
+    "transformations": [
+      "portable path display; original artifact hashes still describe the original run"
+    ]
+  }
+}
