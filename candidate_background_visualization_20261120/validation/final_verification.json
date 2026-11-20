@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_metadata_and_sha256_unchanged": {
+    "config": true,
+    "pairs": true,
+    "reference": true,
+    "results": true,
+    "metrics": true,
+    "fk_source": true,
+    "solver_source": true
+  },
+  "original_RGB_files_verified_unchanged": 5192,
+  "output_images_decoded_and_sha256_verified": 10384,
+  "missing_or_duplicate_pose_observations": 0,
+  "preservation_scope": "All 7 source files read by preparation and all 5192 original RGB files; unrelated datasets and weights were not rehashed.",
+  "_publication": {
+    "role": "archived validation of original local visualization generation, not a validation of this release package",
+    "original_artifact_sha256": "f77289066d6554306f2cdc657e7185e54232df370f3339cb64c98e6eae0b2414",
+    "root_display": "${ROBOTPOSE_ROOT} replaces the original private absolute repository root"
+  }
+}

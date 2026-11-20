@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "source_directory": "candidate_background_visualization_20261120",
+  "release_tag": "visualization-20261120",
+  "release_url": "https://github.com/Stick-0/dual_camera_pairwise_v2/releases/tag/visualization-20261120",
+  "release_asset": "https://github.com/Stick-0/dual_camera_pairwise_v2/releases/download/visualization-20261120/r0-r1-full-frame-visualization.zip",
+  "git_payload": "lightweight viewing metadata, frozen code, graphs and contact sheets; no individual overlays",
+  "image_delivery": "Release ZIP, preserving candidate_background_visualization_20261120/overlays/... structure",
+  "no_original_files_modified": true,
+  "included_files": [
+    {
+      "path": "run.py",
+      "bytes": 16574,
+      "published_sha256": "26516fa674fc1421c7d01ded44042a51872fb30fcf7b133e24e5f941ccca89e3",
+      "transformations": [],
+      "original_relative_path": "run.py",
+      "original_sha256": "26516fa674fc1421c7d01ded44042a51872fb30fcf7b133e24e5f941ccca89e3",
+      "byte_identical": true
+    },
+    {
+      "path": "src/build_viewer.py",
+      "bytes": 12231,
+      "published_sha256": "f46b086a21b78bfa6c147ba4bb3290e0732a2322a61e5a1dfba09b10463d0ff6",
+      "transformations": [],
+      "original_relative_path": "src/build_viewer.py",
+      "original_sha256": "f46b086a21b78bfa6c147ba4bb3290e0732a2322a61e5a1dfba09b10463d0ff6",
+      "byte_identical": true
+    },
+    {
+      "path": "src/plot_frame_add.py",
+      "bytes": 13945,
+      "published_sha256": "0ade2650276838f94d7fd7bb16152494b003b2d4bda1c57a02597f51fd4030de",
+      "transformations": [],
+      "original_relative_path": "src/plot_frame_add.py",
+      "original_sha256": "0ade2650276838f94d7fd7bb16152494b003b2d4bda1c57a02597f51fd4030de",
+      "byte_identical": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 405939,
+      "published_sha256": "f208f8962eb3fc4a5f3d5c65f8f7e6931b782388c05f8cad6832415251f0a2e1",
+      "transformations": [
+        "add Release ZIP instructions and missing-frame-image message; retain original frame data, image paths and scientific values"
+      ],
+      "original_relative_path": "index.html",
+      "original_sha256": "912b7a75ca85106c4983783b9e5d8eab31185f13a578d33145772a3eac14201c",
+      "byte_identical": false
+    },
+    {
+      "path": "README.txt",
+      "bytes": 6296,
+      "published_sha256": "b2f3e482808ae1e473a7e14a2dc86cc3cc1a5180d4e48e3535d97b9fae453a03",
+      "transformations": [
+        "portable local root display; Release scope note; add missing pre-generation directory preparation"
+      ],
+      "original_relative_path": "README.txt",
+      "original_sha256": "b89abfc136d75f2d437349e20fe83b05b3ae7731d9ee4a8e6add80079021ef0f",
+      "byte_identical": false
+    },
+    {
+      "path": "completion_manifest.json",
+      "bytes": 2768,
+      "published_sha256": "cfb733ba753dc7ecf80b0c2e8fa98bacf1ff59ddf2b06f4b8124bba9019ead11",
+      "transformations": [
+        "clarify original completion hashes versus publication hashes"
+      ],
+      "original_relative_path": "completion_manifest.json",
+      "original_sha256": "a04f3b4ef9e88e2d6f23f92c94b9c9c62edff5ea42b55a8ed4871d6b2bf30576",
+      "byte_identical": false
+    },
+    {
+      "path": "figures/R0_ADD_all_frames.png",
+      "bytes": 574360,
+      "published_sha256": "4a08e81f6d47f767415c4a562d3ee39e12c8c2170fc4c221cbf75d587e746cef",
+      "transformations": [],
+      "original_relative_path": "figures/R0_ADD_all_frames.png",
+      "original_sha256": "4a08e81f6d47f767415c4a562d3ee39e12c8c2170fc4c221cbf75d587e746cef",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/R0_ADD_all_frames.svg",
+      "bytes": 755742,
+      "published_sha256": "5f19988e1f2d0ea67681c21987f649c6b319ed98839c44984c1cd7f670b6ff8c",
+      "transformations": [],
+      "original_relative_path": "figures/R0_ADD_all_frames.svg",
+      "original_sha256": "5f19988e1f2d0ea67681c21987f649c6b319ed98839c44984c1cd7f670b6ff8c",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/R0_R1_ADD_comparison.png",
+      "bytes": 885537,
+      "published_sha256": "065a1a2cf6976500886d7f80b9d9da8c0f5e3adbf9a5ab64a154ea7212b93d8e",
+      "transformations": [],
+      "original_relative_path": "figures/R0_R1_ADD_comparison.png",
+      "original_sha256": "065a1a2cf6976500886d7f80b9d9da8c0f5e3adbf9a5ab64a154ea7212b93d8e",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/R0_R1_ADD_comparison.svg",
+      "bytes": 1482087,
+      "published_sha256": "8243b7dfde15cd21904f5ba2444d6f48ceabf38a428fda4106e580f2ff24b1b3",
+      "transformations": [],
+      "original_relative_path": "figures/R0_R1_ADD_comparison.svg",
+      "original_sha256": "8243b7dfde15cd21904f5ba2444d6f48ceabf38a428fda4106e580f2ff24b1b3",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/R1_ADD_all_frames.png",
+      "bytes": 406436,
+      "published_sha256": "2d0c50807d34a98e9e9e52e5d2c181edee3cf4600daaacf006e521aebb67572e",
+      "transformations": [],
+      "original_relative_path": "figures/R1_ADD_all_frames.png",
+      "original_sha256": "2d0c50807d34a98e9e9e52e5d2c181edee3cf4600daaacf006e521aebb67572e",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/R1_ADD_all_frames.svg",
+      "bytes": 755330,
+      "published_sha256": "3bb857aee9f2c09536d0d48985ea3e7ada883c6157520390fdc6ff9d7bf0465f",
+      "transformations": [],
+      "original_relative_path": "figures/R1_ADD_all_frames.svg",
+      "original_sha256": "3bb857aee9f2c09536d0d48985ea3e7ada883c6157520390fdc6ff9d7bf0465f",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/preview_first_pair_000000.jpg",
+      "bytes": 420134,
+      "published_sha256": "2ec5669fd0bbd3d3b3fe970ba7c16218c9b14e00dc50bb694b766dcd352b27ab",
+      "transformations": [],
+      "original_relative_path": "figures/preview_first_pair_000000.jpg",
+      "original_sha256": "2ec5669fd0bbd3d3b3fe970ba7c16218c9b14e00dc50bb694b766dcd352b27ab",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/preview_largest_pair_mean_improvement_pair_002433.jpg",
+      "bytes": 418992,
+      "published_sha256": "97706d170203b8a772a72da50d67be1ebc63327e0fab11fd8db1098dd2544af2",
+      "transformations": [],
+      "original_relative_path": "figures/preview_largest_pair_mean_improvement_pair_002433.jpg",
+      "original_sha256": "97706d170203b8a772a72da50d67be1ebc63327e0fab11fd8db1098dd2544af2",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/preview_largest_pair_mean_worsening_pair_002471.jpg",
+      "bytes": 419272,
+      "published_sha256": "106101ac9eabd03a4eeb4ae602c8559a85dc08117aa61d502259eb4828e282eb",
+      "transformations": [],
+      "original_relative_path": "figures/preview_largest_pair_mean_worsening_pair_002471.jpg",
+      "original_sha256": "106101ac9eabd03a4eeb4ae602c8559a85dc08117aa61d502259eb4828e282eb",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/preview_last_pair_002595.jpg",
+      "bytes": 419305,
+      "published_sha256": "e4841e4af07523aed2e85943d36cbc45a580d9d8a18521d6101ff7800d3c184f",
+      "transformations": [],
+      "original_relative_path": "figures/preview_last_pair_002595.jpg",
+      "original_sha256": "e4841e4af07523aed2e85943d36cbc45a580d9d8a18521d6101ff7800d3c184f",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/preview_middle_pair_001298.jpg",
+      "bytes": 422629,
+      "published_sha256": "702580c58bcb2c5b6df9e5dfba11d39798b28c7a8b12d8baa0d1da3fd0c82d2d",
+      "transformations": [],
+      "original_relative_path": "figures/preview_middle_pair_001298.jpg",
+      "original_sha256": "702580c58bcb2c5b6df9e5dfba11d39798b28c7a8b12d8baa0d1da3fd0c82d2d",
+      "byte_identical": true
+    },
+    {
+      "path": "data/add_by_frame.csv",
+      "bytes": 321832,
+      "published_sha256": "d02aafee0f24aa8e725df4437497ed20883c079a904cef95e653b3e64cb7d2ef",
+      "transformations": [],
+      "original_relative_path": "data/add_by_frame.csv",
+      "original_sha256": "d02aafee0f24aa8e725df4437497ed20883c079a904cef95e653b3e64cb7d2ef",
+      "byte_identical": true
+    },
+    {
+      "path": "data/preview_selection.json",
+      "bytes": 643,
+      "published_sha256": "e8740c9f9ebf9e080795f29e5e1407edbe723e96759577540fc6dff074468967",
+      "transformations": [],
+      "original_relative_path": "data/preview_selection.json",
+      "original_sha256": "e8740c9f9ebf9e080795f29e5e1407edbe723e96759577540fc6dff074468967",
+      "byte_identical": true
+    },
+    {
+      "path": "validation/add_graphs.json",
+      "bytes": 7747,
+      "published_sha256": "7de83d60b006893b49b832ef2e01a9d0a42522132c5d1b3e9b9b714682564a6b",
+      "transformations": [
+        "portable local root display and clarify historical validation scope"
+      ],
+      "original_relative_path": "validation/add_graphs.json",
+      "original_sha256": "e0a81280f886885f69cc34af638e6234a35b1857f13f84ca687c6bb4ff151494",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/final_verification.json",
+      "bytes": 862,
+      "published_sha256": "a7623d6cb0fe64940c883f6e89454515caa482fa2470a288eb3f294b7a963282",
+      "transformations": [
+        "portable local root display and clarify historical validation scope"
+      ],
+      "original_relative_path": "validation/final_verification.json",
+      "original_sha256": "f77289066d6554306f2cdc657e7185e54232df370f3339cb64c98e6eae0b2414",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/preparation.json",
+      "bytes": 2895,
+      "published_sha256": "610be83243c490dbf70d9d6d605730ae6d3b49fce015d1fe3136f67725d5ecb0",
+      "transformations": [
+        "portable local root display and clarify historical validation scope"
+      ],
+      "original_relative_path": "validation/preparation.json",
+      "original_sha256": "53858c6b415df28197ee7dee983b52030916892872b00f33dc870748e498fbc1",
+      "byte_identical": false
+    },
+    {
+      "path": "validation/viewer_qa.json",
+      "bytes": 783,
+      "published_sha256": "2f9ccf270f98028455cd6726a1173e49f3a0a6853441599775b0c2bd28c811a6",
+      "transformations": [
+        "portable local root display and clarify historical validation scope"
+      ],
+      "original_relative_path": "validation/viewer_qa.json",
+      "original_sha256": "47babd666d93109814bc04ebbbc2382f3f9d1ef66b70d7a1a935e0d9822d111a",
+      "byte_identical": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 7691,
+      "published_sha256": "e32cff079cbda9e49455025786af0af9c7307dfe31cc5ecc953b0f1cf89c1405",
+      "transformations": [],
+      "publication_only": true
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 103,
+      "published_sha256": "d611bb0fee861c114812451db7b7083794f19767ae7be91854ce85f93e5fb2b2",
+      "transformations": [],
+      "publication_only": true
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 5160,
+      "published_sha256": "c92d1438e9891d1beb8220381d84ea0df34e7952c5591b4eff037dd5c3de2528",
+      "transformations": [],
+      "publication_only": true
+    }
+  ],
+  "file_count_excluding_this_manifest": 26,
+  "bytes_excluding_this_manifest": 7765293,
+  "excluded_from_git": [
+    "overlays/ (10384 JPEG images; provided in Release ZIP)",
+    "data/render_frames.jsonl",
+    "data/source_images.json",
+    "cache/",
+    "logs/",
+    "smoke/",
+    "original RGB, datasets and weights"
+  ],
+  "hash_semantics": "original_sha256 and source_manifest describe original local generation files; published_sha256 describes each distributed stage file. Historical validation JSON fields continue to describe the original run."
+}

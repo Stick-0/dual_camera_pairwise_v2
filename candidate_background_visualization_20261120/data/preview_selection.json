@@ -1,0 +1,27 @@
+{
+  "first": {
+    "frame_index": 1,
+    "pair_id": "000000",
+    "pair_mean_R1_minus_R0_mm": -21.117234639421724
+  },
+  "middle": {
+    "frame_index": 1299,
+    "pair_id": "001298",
+    "pair_mean_R1_minus_R0_mm": -52.532128086780524
+  },
+  "last": {
+    "frame_index": 2596,
+    "pair_id": "002595",
+    "pair_mean_R1_minus_R0_mm": -17.625791474454317
+  },
+  "largest_pair_mean_improvement": {
+    "frame_index": 2434,
+    "pair_id": "002433",
+    "pair_mean_R1_minus_R0_mm": -143.02275943898633
+  },
+  "largest_pair_mean_worsening": {
+    "frame_index": 2472,
+    "pair_id": "002471",
+    "pair_mean_R1_minus_R0_mm": 84.96737995574081
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "pairs": 2596,
+  "methods": [
+    "R0",
+    "R1"
+  ],
+  "cameras": [
+    "camera1",
+    "camera2"
+  ],
+  "overlay_images": 10384,
+  "output_bytes": 1058204307,
+  "source_results_reused": true,
+  "input_files_preserved": true,
+  "key_artifacts": {
+    "index.html": "912b7a75ca85106c4983783b9e5d8eab31185f13a578d33145772a3eac14201c",
+    "README.txt": "b89abfc136d75f2d437349e20fe83b05b3ae7731d9ee4a8e6add80079021ef0f",
+    "run.py": "26516fa674fc1421c7d01ded44042a51872fb30fcf7b133e24e5f941ccca89e3",
+    "src/build_viewer.py": "f46b086a21b78bfa6c147ba4bb3290e0732a2322a61e5a1dfba09b10463d0ff6",
+    "src/plot_frame_add.py": "0ade2650276838f94d7fd7bb16152494b003b2d4bda1c57a02597f51fd4030de",
+    "figures/R0_ADD_all_frames.png": "4a08e81f6d47f767415c4a562d3ee39e12c8c2170fc4c221cbf75d587e746cef",
+    "figures/R0_ADD_all_frames.svg": "5f19988e1f2d0ea67681c21987f649c6b319ed98839c44984c1cd7f670b6ff8c",
+    "figures/R0_R1_ADD_comparison.png": "065a1a2cf6976500886d7f80b9d9da8c0f5e3adbf9a5ab64a154ea7212b93d8e",
+    "figures/R0_R1_ADD_comparison.svg": "8243b7dfde15cd21904f5ba2444d6f48ceabf38a428fda4106e580f2ff24b1b3",
+    "figures/R1_ADD_all_frames.png": "2d0c50807d34a98e9e9e52e5d2c181edee3cf4600daaacf006e521aebb67572e",
+    "figures/R1_ADD_all_frames.svg": "3bb857aee9f2c09536d0d48985ea3e7ada883c6157520390fdc6ff9d7bf0465f",
+    "figures/preview_first_pair_000000.jpg": "2ec5669fd0bbd3d3b3fe970ba7c16218c9b14e00dc50bb694b766dcd352b27ab",
+    "figures/preview_largest_pair_mean_improvement_pair_002433.jpg": "97706d170203b8a772a72da50d67be1ebc63327e0fab11fd8db1098dd2544af2",
+    "figures/preview_largest_pair_mean_worsening_pair_002471.jpg": "106101ac9eabd03a4eeb4ae602c8559a85dc08117aa61d502259eb4828e282eb",
+    "figures/preview_last_pair_002595.jpg": "e4841e4af07523aed2e85943d36cbc45a580d9d8a18521d6101ff7800d3c184f",
+    "figures/preview_middle_pair_001298.jpg": "702580c58bcb2c5b6df9e5dfba11d39798b28c7a8b12d8baa0d1da3fd0c82d2d",
+    "validation/add_graphs.json": "e0a81280f886885f69cc34af638e6234a35b1857f13f84ca687c6bb4ff151494",
+    "validation/final_verification.json": "f77289066d6554306f2cdc657e7185e54232df370f3339cb64c98e6eae0b2414",
+    "validation/preparation.json": "53858c6b415df28197ee7dee983b52030916892872b00f33dc870748e498fbc1",
+    "validation/viewer_qa.json": "47babd666d93109814bc04ebbbc2382f3f9d1ef66b70d7a1a935e0d9822d111a",
+    "data/add_by_frame.csv": "d02aafee0f24aa8e725df4437497ed20883c079a904cef95e653b3e64cb7d2ef"
+  },
+  "_publication": {
+    "role": "original visualization completion record; key_artifacts hashes identify original files",
+    "original_artifact_sha256": "a04f3b4ef9e88e2d6f23f92c94b9c9c62edff5ea42b55a8ed4871d6b2bf30576",
+    "release_file_hashes": "publication_manifest.json"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "passed": true,
+  "source_csv": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/reports/final/per_observation_metrics.csv",
+  "source_sha256": "f519c5b80f5d6e30a616531452301c8c9f2eccfe6a3a146f7faad946ee369f4c",
+  "source_metadata": {
+    "size": 2438627,
+    "mtime_ns": 1794796084281822526,
+    "mode": 33204
+  },
+  "source_preserved_content_and_metadata": true,
+  "source_rows": 20768,
+  "selected_camera_rows": 10384,
+  "n_pairs": 2596,
+  "methods": [
+    "R0",
+    "R1"
+  ],
+  "cameras": [
+    "camera1",
+    "camera2"
+  ],
+  "sorting": "Original pair timestamp_s ascending, then pair_id stable lexical tie break",
+  "x_axis": "1-based frame index in unchanged full pair sequence",
+  "pair_id_first": "000000",
+  "pair_id_last": "002595",
+  "pair_ids_match_000000_to_002595": true,
+  "timestamp_span_s": 259.78320813179016,
+  "original_timestamp_deltas_s": {
+    "min": 0.10006511211395264,
+    "median": 0.10007071495056152,
+    "max": 0.20014262199401855
+  },
+  "csv_roundtrip_all_values_exact": true,
+  "output_csv": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/data/add_by_frame.csv",
+  "output_csv_sha256": "d02aafee0f24aa8e725df4437497ed20883c079a904cef95e653b3e64cb7d2ef",
+  "shared_y_limits_mm": [
+    0.0,
+    328.4033495746786
+  ],
+  "global_maximum_ADD_mm": 312.7650948330272,
+  "clipping": false,
+  "smoothing": false,
+  "downsampling": false,
+  "matplotlib_path_simplify": false,
+  "matplotlib_agg_path_chunksize": 0,
+  "all_original_samples_have_markers": true,
+  "failed_pose_policy": "NaN line gaps and x-axis-relative x-mark rugs; never zero-filled",
+  "graph_files": [
+    {
+      "name": "R0_ADD_all_frames",
+      "pixels": [
+        3600,
+        1080
+      ],
+      "dpi": 180,
+      "y_limits_mm": [
+        0.0,
+        328.4033495746786
+      ],
+      "traces": [
+        {
+          "label": "Camera 1",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        },
+        {
+          "label": "Camera 2",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        }
+      ],
+      "files": [
+        {
+          "path": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/figures/R0_ADD_all_frames.png",
+          "sha256": "4a08e81f6d47f767415c4a562d3ee39e12c8c2170fc4c221cbf75d587e746cef",
+          "bytes": 574360
+        },
+        {
+          "path": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/figures/R0_ADD_all_frames.svg",
+          "sha256": "5f19988e1f2d0ea67681c21987f649c6b319ed98839c44984c1cd7f670b6ff8c",
+          "bytes": 755742
+        }
+      ]
+    },
+    {
+      "name": "R1_ADD_all_frames",
+      "pixels": [
+        3600,
+        1080
+      ],
+      "dpi": 180,
+      "y_limits_mm": [
+        0.0,
+        328.4033495746786
+      ],
+      "traces": [
+        {
+          "label": "Camera 1",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        },
+        {
+          "label": "Camera 2",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        }
+      ],
+      "files": [
+        {
+          "path": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/figures/R1_ADD_all_frames.png",
+          "sha256": "2d0c50807d34a98e9e9e52e5d2c181edee3cf4600daaacf006e521aebb67572e",
+          "bytes": 406436
+        },
+        {
+          "path": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/figures/R1_ADD_all_frames.svg",
+          "sha256": "3bb857aee9f2c09536d0d48985ea3e7ada883c6157520390fdc6ff9d7bf0465f",
+          "bytes": 755330
+        }
+      ]
+    },
+    {
+      "name": "R0_R1_ADD_comparison",
+      "pixels": [
+        3600,
+        1800
+      ],
+      "dpi": 180,
+      "y_limits_mm": [
+        0.0,
+        328.4033495746786
+      ],
+      "traces": [
+        {
+          "label": "R0 · background OFF",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        },
+        {
+          "label": "R1 · background ON",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        },
+        {
+          "label": "R0 · background OFF",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        },
+        {
+          "label": "R1 · background ON",
+          "x_points": 2596,
+          "finite_y_points": 2596,
+          "rejected_gap_points": 0,
+          "path_vertices": 2596,
+          "all_x_and_y_equal_original": true
+        }
+      ],
+      "files": [
+        {
+          "path": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/figures/R0_R1_ADD_comparison.png",
+          "sha256": "065a1a2cf6976500886d7f80b9d9da8c0f5e3adbf9a5ab64a154ea7212b93d8e",
+          "bytes": 885537
+        },
+        {
+          "path": "${ROBOTPOSE_ROOT}/candidate_background_visualization_20261120/figures/R0_R1_ADD_comparison.svg",
+          "sha256": "8243b7dfde15cd21904f5ba2444d6f48ceabf38a428fda4106e580f2ff24b1b3",
+          "bytes": 1482087
+        }
+      ]
+    }
+  ],
+  "per_camera_statistics": [
+    {
+      "method": "R0",
+      "camera": "camera1",
+      "total": 2596,
+      "valid": 2596,
+      "failed": 0,
+      "mean_ADD_mm": 44.5383270240857,
+      "median_ADD_mm": 33.84677920975801,
+      "min_ADD_mm": 4.948527932482799,
+      "max_ADD_mm": 312.7650948330272,
+      "ADD50": 0.651386748844376,
+      "max_frame_index": 2434,
+      "max_pair_id": "002433"
+    },
+    {
+      "method": "R0",
+      "camera": "camera2",
+      "total": 2596,
+      "valid": 2596,
+      "failed": 0,
+      "mean_ADD_mm": 48.2445633724069,
+      "median_ADD_mm": 35.18446105978491,
+      "min_ADD_mm": 4.512085490839473,
+      "max_ADD_mm": 259.1305027393631,
+      "ADD50": 0.6432973805855162,
+      "max_frame_index": 2477,
+      "max_pair_id": "002476"
+    },
+    {
+      "method": "R1",
+      "camera": "camera1",
+      "total": 2596,
+      "valid": 2596,
+      "failed": 0,
+      "mean_ADD_mm": 21.964613644988017,
+      "median_ADD_mm": 15.827432738472826,
+      "min_ADD_mm": 4.00631441792102,
+      "max_ADD_mm": 108.84339201723125,
+      "ADD50": 0.9256548536209553,
+      "max_frame_index": 2472,
+      "max_pair_id": "002471"
+    },
+    {
+      "method": "R1",
+      "camera": "camera2",
+      "total": 2596,
+      "valid": 2596,
+      "failed": 0,
+      "mean_ADD_mm": 26.534427376129948,
+      "median_ADD_mm": 19.604169491705633,
+      "min_ADD_mm": 3.3446558792370533,
+      "max_ADD_mm": 154.6948516559095,
+      "ADD50": 0.865562403697997,
+      "max_frame_index": 2472,
+      "max_pair_id": "002471"
+    }
+  ],
+  "code_sha256": "0ade2650276838f94d7fd7bb16152494b003b2d4bda1c57a02597f51fd4030de",
+  "source_inference_or_solver_rerun": false,
+  "_publication": {
+    "role": "archived validation of original local visualization generation, not a validation of this release package",
+    "original_artifact_sha256": "e0a81280f886885f69cc34af638e6234a35b1857f13f84ca687c6bb4ff151494",
+    "root_display": "${ROBOTPOSE_ROOT} replaces the original private absolute repository root"
+  }
+}

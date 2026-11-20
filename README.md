@@ -2,6 +2,20 @@
 
 동결된 로봇 관측 모델의 Candidates와 RoMa V2의 현재 두 영상 대응을 결합하는 Robotpose 확장입니다. 현재 배포에는 기반 구현과 **배경 결합 × Essential 초기화 통제 실험(2026-11-16)**이 포함됩니다.
 
+## 전체 프레임 키포인트·포즈·ADD 시각화 (2026-11-20)
+
+PnP 기반 초기화를 공유하는 **R0(배경 OFF) / R1(배경 ON)**의 UR_dual_2596 전체 2,596쌍을 시각화했습니다. 두 카메라 × 두 조건의 개별 이미지 **10,384개**와 프레임 탐색 HTML, 전체 프레임 ADD 그래프를 제공합니다.
+
+- **[전체 이미지와 오프라인 뷰어 ZIP 다운로드](https://github.com/Stick-0/dual_camera_pairwise_v2/releases/download/visualization-20261120/r0-r1-full-frame-visualization.zip)** — 약 1GB. 압축을 풀고 `candidate_background_visualization_20261120/index.html`을 엽니다.
+- [Release와 SHA-256 검증 파일](https://github.com/Stick-0/dual_camera_pairwise_v2/releases/tag/visualization-20261120)
+- [시각화 코드·범례·실행 방법](candidate_background_visualization_20261120/README.md)
+- [R0 OFF 그래프](candidate_background_visualization_20261120/figures/R0_ADD_all_frames.png) · [R1 ON 그래프](candidate_background_visualization_20261120/figures/R1_ADD_all_frames.png) · [카메라별 OFF/ON 비교](candidate_background_visualization_20261120/figures/R0_R1_ADD_comparison.png)
+- [전체 프레임 ADD CSV](candidate_background_visualization_20261120/data/add_by_frame.csv)
+
+![같은 초기 포즈에서 배경 OFF/ON의 전체 프레임 ADD 비교](candidate_background_visualization_20261120/figures/R0_R1_ADD_comparison.png)
+
+전체 프레임 이미지는 Release ZIP에 들어 있습니다. Git clone과 GitHub의 자동 `Source code` ZIP에는 코드·문서·그래프·정적 비교 예시만 포함되므로, 오프라인 프레임 뷰어는 위 전용 ZIP으로 열어 주세요. 원래 데이터셋·가중치·캐시는 포함하지 않았습니다.
+
 ## 최신 구현과 결과
 
 - [최신 상세 HTML 보고서](candidate_background_ablation_20261116/reports/final/ablation_report.html): 방법론, 전체 결과, 시간 블록 신뢰구간, 실패 원인, 실제 개선·악화 영상. HTML을 내려받아 브라우저에서 열면 내장된 그림과 선택형 표를 볼 수 있습니다.

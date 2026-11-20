@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "n_pairs": 2596,
+  "n_pose_observations": 10384,
+  "source_files": {
+    "config": {
+      "path": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/configs/experiment.yaml",
+      "sha256": "4d6d85513a16a1acbc93d0656b4dfcb3d1d995bdd1b255c7fdb6070fce9553e0",
+      "size": 5103,
+      "mtime_ns": 1794795270970233687
+    },
+    "pairs": {
+      "path": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/pairs.jsonl",
+      "sha256": "b01687d8562d0fe0299229ffcff0287af10873971610fde52e6150626ed41fe3",
+      "size": 9840924,
+      "mtime_ns": 1794660308777186721
+    },
+    "reference": {
+      "path": "${ROBOTPOSE_ROOT}/dual_camera_pairwise_v2/experiments/ur_dual_2596_20261114/ingest/full/reference.jsonl",
+      "sha256": "abc9cc89554359991ec838620aa1056f3cc14892f495e792077f20685996acd8",
+      "size": 7910488,
+      "mtime_ns": 1794660338871696892
+    },
+    "results": {
+      "path": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/results/full/pair_results.jsonl",
+      "sha256": "24fd17e1d8adc2d36d1a123d1119cc05f61945a989f23d7d43be6d545ac01655",
+      "size": 467186465,
+      "mtime_ns": 1794795705114627566
+    },
+    "metrics": {
+      "path": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/reports/final/per_observation_metrics.csv",
+      "sha256": "f519c5b80f5d6e30a616531452301c8c9f2eccfe6a3a146f7faad946ee369f4c",
+      "size": 2438627,
+      "mtime_ns": 1794796084281822526
+    },
+    "fk_source": {
+      "path": "${ROBOTPOSE_ROOT}/ur5e_capture/geometry.py",
+      "sha256": "504777b074b54abdaccc4a816285f3cad6a56de48b9574a055cd9ecfdb73aa45",
+      "size": 4505,
+      "mtime_ns": 1794555558311102617
+    },
+    "solver_source": {
+      "path": "${ROBOTPOSE_ROOT}/candidate_background_ablation_20261116/src/controlled_solver.py",
+      "sha256": "c9cec7e52bb3edc9bb0b3df5535461cae0c8de7266b6641d2cd1bbb9ba7d6b5a",
+      "size": 36360,
+      "mtime_ns": 1794795318667037998
+    }
+  },
+  "source_files_unchanged_after_read": true,
+  "maximum_ADD_recalculation_difference_mm": 2.3092638912203256e-13,
+  "maximum_saved_pose_projection_difference_px": 0.0,
+  "maximum_base_axis_origin_vs_fk0_difference_px": 0.0,
+  "axis_length_m": 0.12,
+  "axis_outside_image_count": 0,
+  "all_R0_R1_initial_pose_hashes_equal": true,
+  "all_R0_R1_raw_observations_equal": true,
+  "reference_used_only_for_ADD_crosscheck": true,
+  "inference_or_optimization_rerun": false,
+  "ordering": "Mean of camera capture timestamps; pair_id tie-break; frame index 1..2596",
+  "_publication": {
+    "role": "archived validation of original local visualization generation, not a validation of this release package",
+    "original_artifact_sha256": "53858c6b415df28197ee7dee983b52030916892872b00f33dc870748e498fbc1",
+    "root_display": "${ROBOTPOSE_ROOT} replaces the original private absolute repository root"
+  }
+}

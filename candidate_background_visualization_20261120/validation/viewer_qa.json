@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "html_local_links_checked": 26,
+  "missing_links": [],
+  "frame_images_checked": 10384,
+  "viewer_ADD_values_exactly_match_graph_CSV": true,
+  "python_syntax_checked": true,
+  "browser_render_executed": false,
+  "browser_render_note": "Optional headless Chrome startup failed in sandbox (SIGTRAP); static links, embedded frame data, code syntax and image files verified. Graph and overlay PNG/JPEG visually inspected.",
+  "_publication": {
+    "role": "archived validation of original local visualization generation, not a validation of this release package",
+    "original_artifact_sha256": "47babd666d93109814bc04ebbbc2382f3f9d1ef66b70d7a1a935e0d9822d111a",
+    "root_display": "${ROBOTPOSE_ROOT} replaces the original private absolute repository root"
+  }
+}
